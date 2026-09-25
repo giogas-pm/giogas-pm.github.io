@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://giogas-pm.github.io/murai/sitemap.xml
+Sitemap: https://giogas-pm.github.io/carta-noel/sitemap.xml
+Sitemap: https://giogas-pm.github.io/revele/sitemap.xml
+Sitemap: https://giogas-pm.github.io/album/sitemap.xml
