@@ -9,10 +9,11 @@ Uso (de apps/root-site):  python migrar_dominio.py todosjuntos.com.br          -
                           redeploy das Edge Functions de pagamento, GSC (nova propriedade + sitemaps), gen_hub.py."""
 import os, sys
 OLD = "https://giogas-pm.github.io/"
-REPOS = ["root-site", "murai-repo", "carta-noel", "revele", "album"]
+REPOS = ["root-site", "murai-repo", "carta-noel", "revele", "album", "cha-de-panela", "bodas"]
 FUNCS = [  # SITE/back_urls do Mercado Pago (redeploy depois)
     "mural/supabase/functions/mp-preferencia", "carta-noel/supabase/functions/mp-preferencia-noel",
     "revele/supabase/functions/mp-preferencia-revele", "album/supabase/functions/mp-preferencia-album",
+    "cha-de-panela/supabase/functions/mp-preferencia-cha", "bodas/supabase/functions/mp-preferencia-bodas",
     "root-site/supabase/functions/gsc-status"]
 EXT = (".html", ".xml", ".txt", ".md", ".ts", ".py", ".json")
 
