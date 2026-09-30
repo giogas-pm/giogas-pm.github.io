@@ -2,6 +2,7 @@
  "app": "bingo-de-natal",
  "nome": "Bingo de Natal",
  "cor": "#b3261e",
+ "emoji": "🎄",
  "base": "https://giogas-pm.github.io/bingo-de-natal/",
  "botao_curto": "Montar cartelas",
  "cta": {"titulo": "Monte as cartelas do seu bingo agora", "texto": "Cartelas únicas com figuras de Natal e o nome de cada jogador. Prévia grátis, sorteador na tela grátis; imprimir sem marca custa R$14,90 (até 100 cartelas).", "botao": "🎄 Montar meu bingo de Natal"},
