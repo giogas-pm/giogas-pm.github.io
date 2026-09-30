@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Recuperar compra | Fica Pronto</title>
+<meta name="description" content="Acesse de novo o que você comprou num app Fica Pronto usando o número da operação do Mercado Pago.">
+<meta name="robots" content="noindex"><link rel="canonical" href="https://giogas-pm.github.io/recuperar/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧾</text></svg>">
+<style>
+:root{--bg:#f7f5f0;--card:#fff;--ink:#1c1b19;--mut:#6b6862;--line:#e4e1da;--c:#1f6f5c}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--card:#1e1d1b;--ink:#eeebe4;--mut:#9a968d;--line:#2f2d2a;--c:#5cc3a3}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+.w{max-width:620px;margin:0 auto;padding:24px 16px 60px}h1{font-size:28px;line-height:1.2;margin:10px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin:18px 0}
+label{font-weight:700;display:block;margin-bottom:6px}
+input{width:100%;font:inherit;font-size:18px;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+button{width:100%;margin-top:12px;font:inherit;font-weight:700;font-size:18px;padding:14px;border:0;border-radius:12px;background:var(--c);color:#fff;cursor:pointer}
+button:disabled{opacity:.6}.mut{color:var(--mut);font-size:15px}a{color:var(--c)}li{margin:4px 0}
+</style></head><body>
+<div class="w">
+<p class="mut"><a href="https://giogas-pm.github.io/">← Fica Pronto</a></p>
+<h1>Recuperar minha compra</h1>
+<p>Fechou a página antes de voltar do pagamento, trocou de aparelho ou perdeu o link? Informe o <b>número da operação</b> do Mercado Pago e abrimos de novo o que você comprou. Não pedimos e-mail nem cadastro.</p>
+<div class="card">
+<label for="op">Número da operação do Mercado Pago</label>
+<input id="op" inputmode="numeric" autocomplete="off" placeholder="ex.: 123456789012">
+<button id="go" type="button">Recuperar</button>
+<p class="mut" id="msg" role="status"></p>
+</div>
+<h2 style="font-size:19px">Onde acho o número da operação?</h2>
+<ul><li>No <b>e-mail do Mercado Pago</b> de pagamento aprovado.</li><li>No app ou site do Mercado Pago: <b>Atividade</b> › toque no pagamento › “Número da operação”.</li><li>No comprovante do Pix ou cartão gerado pelo Mercado Pago.</li></ul>
+<p class="mut">Dica: abra o link no mesmo aparelho em que você montou o conteúdo, porque o que você preenche fica salvo só nele.</p>
+<p class="mut"><a href="https://giogas-pm.github.io/privacidade/">privacidade</a></p>
+</div>
+<script src="tj.js"></script>
+<script>
+var M={formato:'Confira o número: são só dígitos (normalmente 10 a 12).',nao_encontrado:'Não achamos um pagamento aprovado com esse número. Confira os dígitos (é o número da operação do Mercado Pago).',pendente:'Esse pagamento ainda está em processamento no Mercado Pago. Tente de novo em alguns minutos.',muitas_tentativas:'Muitas tentativas. Aguarde 1 hora e tente de novo.'};
+var go=document.getElementById('go'),op=document.getElementById('op'),msg=document.getElementById('msg');
+var sim=new URLSearchParams(location.search).get('sim');
+async function tenta(){var v=op.value.trim();if(!v){op.focus();return}go.disabled=true;msg.textContent='Conferindo no Mercado Pago...';
+var j=await TJ.recuperar(v,sim).catch(function(){return{ok:false,motivo:'rede'}});
+if(j&&j.ok&&j.volta){msg.textContent='Encontrado! Abrindo a sua compra...';location.href=j.volta;return}
+msg.textContent=M[j&&j.motivo]||'Não foi possível conferir agora. Tente de novo em instantes.';go.disabled=false}
+go.addEventListener('click',tenta);op.addEventListener('keydown',function(e){if(e.key==='Enter')tenta()});
+</script>
+</body></html>
