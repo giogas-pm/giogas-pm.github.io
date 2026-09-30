@@ -1,0 +1,82 @@
+{
+ "app": "amigo-secreto",
+ "nome": "Amigo Secreto",
+ "cor": "#7a2e8e",
+ "emoji": "🎁",
+ "base": "https://giogas-pm.github.io/amigo-secreto/",
+ "botao_curto": "Sortear grátis",
+ "cta": {"titulo": "Faça o sorteio do seu amigo secreto agora", "texto": "Grátis e sem cadastro: cada pessoa recebe o próprio link no WhatsApp e vê só quem tirou. Dá pra impedir que casal se tire e cada um monta a lista de desejos.", "botao": "🎁 Sortear meu amigo secreto"},
+ "irmaos": [{"url": "https://giogas-pm.github.io/bingo-de-natal/", "texto": "Bingo de Natal com cartelas únicas"}, {"url": "https://giogas-pm.github.io/carta-noel/", "texto": "Carta do Papai Noel personalizada"}, {"url": "https://giogas-pm.github.io/", "texto": "Outros apps pra celebrar junto"}],
+ "paginas": [
+  {"slug": "como-fazer-sorteio-de-amigo-secreto",
+   "title": "Como fazer o sorteio do amigo secreto (online, papel ou WhatsApp)",
+   "desc": "Três jeitos de sortear o amigo secreto sem ninguém tirar a si mesmo: online por link, no papelzinho e pelo WhatsApp. Com dicas pra grupo à distância e restrições.",
+   "h1": "Como fazer o sorteio do amigo secreto",
+   "intro": "O sorteio é a parte que mais dá problema no amigo secreto: alguém tira o próprio nome, o casal se tira, uma pessoa falta no dia e o papelzinho tem que ser refeito. Veja os três jeitos de sortear e quando cada um vale a pena.",
+   "blocos": [
+    {"h2": "1. Sorteio online por link (o mais prático)", "p": ["Você escreve os nomes, o site sorteia e gera <strong>um link para cada pessoa</strong>. Cada um abre o seu e vê só quem tirou. Funciona com o grupo espalhado em cidades diferentes, ninguém precisa estar junto e ninguém tira a si mesmo.", "O ponto de atenção é o organizador: em alguns sites ele vê a lista completa de pares. Prefira um sorteio em que o resultado vá escondido dentro dos links — assim quem organiza também participa sem saber de nada."]},
+    {"h2": "2. Papelzinho (o clássico)", "ol": ["Escreva cada nome num papel do mesmo tamanho, dobrado igual.", "Cada pessoa tira um papel e confere escondido.", "Se alguém tirar o próprio nome, <strong>todo mundo devolve e sorteia de novo</strong> — trocar só entre os dois entrega quem tirou quem.", "Anote num lugar seguro (foto do papel, por exemplo): no dia sempre tem alguém que esqueceu."]},
+    {"h2": "3. Pelo WhatsApp", "p": ["O jeito seguro de sortear pelo WhatsApp é gerar os links num sorteador online e mandar cada link <strong>no privado</strong> de cada pessoa. Mandar os resultados no grupo (mesmo “escondidos”) quase sempre acaba em spoiler."]},
+    {"h2": "Restrições: quem não pode tirar quem", "p": ["Casais, irmãos que já trocam presente ou quem se tirou no ano passado: anote esses pares antes de sortear. Num sorteio online com restrições o sistema refaz sozinho até achar uma combinação que respeite todos os pares — no papel isso vira uma sequência interminável de “sorteia de novo”."]}
+   ],
+   "faq": [{"q": "Qual o número mínimo de pessoas para o amigo secreto?", "a": "Três. Com duas pessoas não existe segredo: cada uma sabe quem a tirou."}, {"q": "O organizador pode participar?", "a": "Pode, desde que o sorteio esconda os pares dele também — por link individual, cada um vê só o próprio resultado."}, {"q": "E se alguém desistir depois do sorteio?", "a": "O mais justo é refazer o sorteio inteiro e mandar os links novos. Remanejar só uma pessoa acaba revelando pares."}]},
+  {"slug": "amigo-secreto-pelo-whatsapp",
+   "title": "Amigo secreto pelo WhatsApp: como sortear e mandar no privado",
+   "desc": "Passo a passo para fazer amigo secreto pelo WhatsApp sem spoiler: sorteio por link individual, mensagem pronta, lista de desejos e revelação por vídeo.",
+   "h1": "Amigo secreto pelo WhatsApp",
+   "intro": "Família em cidades diferentes, turma do trabalho em home office ou amigos que só se encontram na confraternização: dá pra fazer o amigo secreto inteiro pelo WhatsApp, do sorteio à revelação.",
+   "blocos": [
+    {"h2": "Passo a passo", "ol": ["Crie (ou use) o grupo e combine valor e data da revelação.", "No sorteador, cole os nomes e as restrições (ex.: casal não se tira).", "Toque em <strong>WhatsApp</strong> ao lado de cada nome: abre a conversa com a mensagem e o link daquela pessoa.", "Cada um abre o link, vê quem tirou e monta a lista de desejos.", "Os links de lista de desejos vão no grupo — assim todo mundo acerta no presente."]},
+    {"h2": "Como evitar spoiler", "lista": ["Nunca mande o link de uma pessoa no grupo: ele é individual.", "Peça pra ninguém encaminhar o próprio link.", "Se alguém mandar no lugar errado, refaça o sorteio e reenvie tudo — leva 1 minuto."]},
+    {"h2": "Revelação à distância", "p": ["Marque uma chamada de vídeo no dia. Cada pessoa dá três pistas sobre quem tirou antes de dizer o nome, e o presente vai pelo correio ou por entrega com a etiqueta “Para: fulano — De: seu amigo secreto”."]}
+   ],
+   "faq": [{"q": "Precisa baixar aplicativo?", "a": "Não. O sorteio é feito no navegador e os links abrem direto do WhatsApp, sem cadastro."}, {"q": "Dá pra fazer com gente que não está no grupo?", "a": "Dá. O link de cada pessoa pode ser mandado no privado, por SMS ou e-mail."}]},
+  {"slug": "regras-do-amigo-secreto",
+   "title": "Regras do amigo secreto: valor, prazo, revelação e o que não fazer",
+   "desc": "As regras que evitam briga no amigo secreto: valor combinado, lista de desejos, prazo de entrega, como fazer a revelação e o que fazer quando alguém falta.",
+   "h1": "Regras do amigo secreto",
+   "intro": "Amigo secreto que dá errado quase sempre é regra que ninguém combinou. Estas são as que vale a pena mandar no grupo antes do sorteio.",
+   "blocos": [
+    {"h2": "As 7 regras básicas", "ol": ["<strong>Valor fechado</strong> (ex.: até R$50) — nem muito acima, nem muito abaixo.", "<strong>Data e local da revelação</strong> definidos antes do sorteio.", "<strong>Ninguém revela quem tirou</strong> até o dia — nem pro cônjuge.", "<strong>Lista de desejos</strong> com 3 a 6 opções dentro do valor.", "<strong>Quem desistir avisa até X dias antes</strong>, pra dar tempo de refazer o sorteio.", "<strong>Presente embrulhado e com etiqueta</strong> do nome de quem vai receber.", "<strong>Na revelação, pistas antes do nome</strong> — é o que faz a brincadeira."]},
+    {"h2": "Como fazer a revelação", "p": ["O formato mais usado: quem começa dá pistas sobre o seu amigo secreto (“é uma pessoa que adora café e nunca chega no horário”) até alguém adivinhar. O revelado entrega o presente e passa a ser o próximo a dar pistas. Em grupo grande, limite a três pistas por pessoa."]},
+    {"h2": "Quando alguém falta no dia", "p": ["Quem faltou entrega o presente depois; quem ia receber dele recebe na próxima oportunidade. Por isso vale anotar os pares num lugar seguro — no sorteio por link, cada pessoa consegue reabrir o próprio resultado."]}
+   ],
+   "faq": [{"q": "Qual o valor ideal do amigo secreto?", "a": "Entre R$30 e R$100 é o mais comum. Família grande e turma de escola costumam ficar em R$30–50; amigos próximos, R$80–100."}, {"q": "Pode dar dinheiro ou vale-presente?", "a": "Se o grupo combinar, pode. Vale-presente é uma boa saída quando a lista de desejos não veio."}]},
+  {"slug": "ideias-de-presente-amigo-secreto",
+   "title": "Ideias de presente para amigo secreto até R$30, R$50 e R$100",
+   "desc": "Lista de ideias de presente para amigo secreto separadas por valor (até R$30, R$50, R$100 e R$200), para homem, mulher, colega de trabalho e quem tem de tudo.",
+   "h1": "Ideias de presente para amigo secreto",
+   "intro": "Tirou alguém que você mal conhece? Antes de tudo, peça a lista de desejos. Se não vier, use estas ideias por faixa de preço — são presentes que servem pra quase todo mundo.",
+   "blocos": [
+    {"h2": "Até R$30", "lista": ["Caneca divertida ou com frase", "Kit de meias estampadas", "Caixa de chocolate ou bombons", "Porta-cartão, chaveiro ou marcador de livro", "Vela aromática pequena"]},
+    {"h2": "Até R$50", "lista": ["Garrafa térmica", "Livro (de preferência da lista de desejos)", "Kit de skincare ou hidratante", "Luminária LED decorativa", "Jogo de cartas para grupo"]},
+    {"h2": "Até R$100", "lista": ["Fone de ouvido bluetooth", "Kit de vinho com taças", "Carregador portátil (power bank)", "Planta com vaso autoirrigável", "Caixa de som bluetooth simples"]},
+    {"h2": "Até R$200", "lista": ["Air fryer compacta", "Mochila para notebook", "Cafeteira", "Perfume", "Assistente de voz (tipo Echo Pop)"]},
+    {"h2": "Pra quem tem de tudo", "p": ["Experiência vale mais que objeto: vale-cinema, um jantar, uma aula avulsa. Ou algo personalizado com o nome da pessoa — é o tipo de presente que ninguém compra pra si mesmo."]}
+   ],
+   "faq": [{"q": "O que dar para colega de trabalho no amigo secreto?", "a": "Algo de uso no dia a dia e neutro: garrafa térmica, caneca, luminária de mesa, fone ou um kit de chocolates."}, {"q": "Como descobrir o que a pessoa quer sem entregar que tirou ela?", "a": "Peça que todo mundo mande a lista de desejos no grupo — assim ninguém precisa perguntar diretamente."}]},
+  {"slug": "brincadeiras-de-amigo-secreto",
+   "title": "Brincadeiras de amigo secreto: amigo da onça, ladrão, chocolate e mais",
+   "desc": "Variações de amigo secreto para animar a confraternização: amigo da onça, amigo ladrão (roubado), amigo secreto de chocolate, de livro e por mensagens.",
+   "h1": "Brincadeiras de amigo secreto",
+   "intro": "Todo ano o mesmo amigo secreto cansa. Estas variações usam o mesmo sorteio e mudam só a regra do presente ou da revelação.",
+   "blocos": [
+    {"h2": "Amigo da onça", "p": ["O presente tem que ser engraçado, inútil ou constrangedor (dentro do bom senso). Valor baixo, R$20–30. Funciona melhor entre amigos e colegas que já têm intimidade."]},
+    {"h2": "Amigo ladrão (ou roubado)", "p": ["Todo mundo leva um presente sem destinatário. Por ordem de sorteio, cada um escolhe um pacote ou “rouba” um já aberto. Não precisa de sorteio de pares, só da ordem."]},
+    {"h2": "Amigo secreto de chocolate", "p": ["Em vez de um presente no fim, cada pessoa dá um chocolate por semana (ou por dia, na semana da revelação) ao amigo secreto, sem se identificar. A revelação é no último dia."]},
+    {"h2": "Amigo secreto de livro", "p": ["Cada um dá um livro que marcou a própria vida, com uma dedicatória. Ótimo para grupos de estudo e família que gosta de ler."]},
+    {"h2": "Amigo secreto por mensagens", "p": ["Durante uma semana, cada um manda mensagens anônimas (bilhetes, pistas) ao amigo secreto. Na revelação, cada pessoa tenta adivinhar quem era."]}
+   ],
+   "faq": [{"q": "Qual brincadeira funciona melhor na empresa?", "a": "Amigo ladrão e amigo secreto de chocolate: são rápidos, não exigem intimidade e o valor fica baixo."}, {"q": "Amigo da onça pode ofender alguém?", "a": "Pode, se o grupo for misturado. Combine limites antes: nada sobre aparência, peso ou religião."}]},
+  {"slug": "amigo-secreto-da-empresa",
+   "title": "Amigo secreto da empresa: como organizar a confraternização sem dor de cabeça",
+   "desc": "Guia pra organizar o amigo secreto do trabalho: prazo, valor, home office, quem não quer participar, sorteio online e etiquetas para os presentes.",
+   "h1": "Amigo secreto da empresa",
+   "intro": "No trabalho o amigo secreto tem problemas próprios: gente em home office, quem entra de férias, quem não quer participar e o chefe que dá presente caro demais. Um roteiro que resolve.",
+   "blocos": [
+    {"h2": "Roteiro de 3 semanas", "ol": ["<strong>3 semanas antes:</strong> pergunte quem quer participar (participação é opcional).", "<strong>2 semanas antes:</strong> faça o sorteio online e mande os links no privado.", "<strong>10 dias antes:</strong> lista de desejos de todo mundo no grupo.", "<strong>No dia:</strong> presentes com etiqueta com o nome de quem recebe, revelação com pistas."]},
+    {"h2": "Cuidados que evitam climão", "lista": ["Valor igual pra todos, inclusive gestores.", "Quem está de férias no dia participa pela chamada de vídeo ou entrega depois.", "Restrinja pares de chefe e subordinado direto, se o grupo preferir.", "Deixe a lista de desejos obrigatória: evita presente errado."]}
+   ],
+   "faq": [{"q": "Dá pra fazer amigo secreto com a equipe em home office?", "a": "Dá: sorteio online por link, presentes enviados pelo correio e revelação em chamada de vídeo."}, {"q": "Quantas pessoas cabem num amigo secreto de empresa?", "a": "O sorteador aceita até 60 pessoas. Acima de 30, vale dividir por área para a revelação não durar horas."}]}
+ ]
+}

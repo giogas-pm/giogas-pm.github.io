@@ -1,0 +1,75 @@
+{
+ "app": "certificado-abc",
+ "nome": "Certificado ABC",
+ "cor": "#e0592a",
+ "emoji": "🎓",
+ "base": "https://giogas-pm.github.io/certificado-abc/",
+ "botao_curto": "Gerar certificados",
+ "cta": {"titulo": "Gere os certificados da turma toda agora", "texto": "Cole os nomes dos alunos e saem os certificados de todos de uma vez — ABC, educação infantil, pré-escola, 5º ou 9º ano. Prévia grátis; a turma inteira sem marca por R$14,90.", "botao": "🎓 Gerar certificados da turma"},
+ "irmaos": [{"url": "https://giogas-pm.github.io/bingo-de-natal/bingo-de-natal-na-escola/", "texto": "Bingo de Natal na escola"}, {"url": "https://giogas-pm.github.io/calendario-2027/", "texto": "Calendário 2027 personalizado"}, {"url": "https://giogas-pm.github.io/", "texto": "Outros apps pra celebrar junto"}],
+ "paginas": [
+  {"slug": "certificado-abc-para-imprimir",
+   "title": "Certificado ABC para imprimir: modelo com o nome de cada aluno",
+   "desc": "Certificado de conclusão do ABC para imprimir, já com o nome de cada aluno, a escola, a turma e a assinatura da professora. Gere a turma inteira de uma vez.",
+   "h1": "Certificado ABC para imprimir",
+   "intro": "O modelo de certificado do ABC que circula nos grupos de professoras quase sempre é um arquivo de Word ou Canva em que você tem que trocar o nome aluno por aluno. Com 25 crianças, isso é uma tarde inteira. Aqui você cola a lista e sai tudo pronto.",
+   "blocos": [
+    {"h2": "O que um certificado do ABC precisa ter", "lista": ["Título: <strong>Certificado de Conclusão do ABC</strong> (ou “de Alfabetização”)", "Nome completo da criança, em destaque", "Texto curto: o que ela concluiu, a turma, a escola e o ano", "Cidade e data da formatura", "Espaço para assinatura da professora e da direção"]},
+    {"h2": "Passo a passo", "ol": ["Copie os nomes da lista de chamada (um por linha — números no começo são removidos sozinhos).", "Preencha escola, turma, professora e direção.", "Escolha o estilo: lápis de cor, estrelas ou clássico.", "Confira a prévia grátis e libere a turma toda.", "Imprima em A4 deitado, 1 certificado por folha."]},
+    {"h2": "Papel e acabamento", "p": ["Offset ou couché 180 g deixa o certificado firme. Para a entrega na formatura, enrole com uma fita da cor da escola ou coloque numa pasta transparente."]}
+   ],
+   "faq": [{"q": "Quanto custa?", "a": "A prévia é grátis. A turma inteira sem marca, até 60 alunos, custa R$14,90 (pagamento único)."}, {"q": "Consigo imprimir na escola?", "a": "Sim. Salve o PDF e imprima em qualquer impressora A4, colorida ou preto e branco."}]},
+  {"slug": "certificado-de-conclusao-da-educacao-infantil",
+   "title": "Certificado de conclusão da Educação Infantil (modelo pronto)",
+   "desc": "Modelo de certificado de conclusão da Educação Infantil com o nome de cada criança, texto pronto e assinatura da professora. Gere para a turma toda e imprima.",
+   "h1": "Certificado de conclusão da Educação Infantil",
+   "intro": "O fim da Educação Infantil é a primeira “formatura” da criança — e o certificado é o papel que a família guarda. O texto pode ser simples, mas precisa estar certo.",
+   "blocos": [
+    {"h2": "Texto sugerido", "p": ["“Certificamos que <em>[nome]</em> concluiu com êxito a Educação Infantil, cheia de descobertas, brincadeiras e aprendizados, na turma <em>[turma]</em> da <em>[escola]</em>, no ano de <em>[ano]</em>.”"]},
+    {"h2": "Educação Infantil, pré-escola ou ABC?", "lista": ["<strong>Educação Infantil</strong>: termo oficial da etapa (creche + pré-escola, até 5 anos).", "<strong>Pré-escola</strong>: os dois últimos anos (4 e 5 anos) — muitas escolas chamam a festa de “formatura da pré”.", "<strong>ABC</strong>: nome popular da turma de alfabetização; em várias redes é o 1º ano do Fundamental."]}
+   ],
+   "faq": [{"q": "O certificado da Educação Infantil tem valor oficial?", "a": "Não. É um documento comemorativo; a transferência para o Ensino Fundamental usa a declaração ou histórico da secretaria da escola."}]},
+  {"slug": "diploma-formatura-infantil",
+   "title": "Diploma de formatura infantil: modelos para a pré-escola",
+   "desc": "Diploma de formatura infantil para a pré-escola com o nome de cada criança, pronto para imprimir. Ideias de texto, entrega e como organizar a colação.",
+   "h1": "Diploma de formatura infantil",
+   "intro": "Beca, capelo e diploma: a formatura da pré-escola virou tradição. O diploma é o momento da foto — vale caprichar.",
+   "blocos": [
+    {"h2": "Como organizar a entrega", "ol": ["Chame cada criança pelo nome completo, na ordem da lista.", "A professora entrega o diploma enrolado com fita; a direção cumprimenta.", "Deixe 5 segundos pra foto antes do próximo nome.", "No fim, todos jogam o capelo ao mesmo tempo."]},
+    {"h2": "Diploma ou certificado?", "p": ["Para a pré-escola, “diploma” soa mais festivo e combina com a colação. Para o ABC e o 5º ano, “certificado de conclusão” é o mais usado. No gerador, escolha “Formatura da Pré-escola” para sair com o título Diploma."]}
+   ],
+   "faq": [{"q": "Dá pra fazer o diploma da turma inteira de uma vez?", "a": "Dá: cole os nomes, um por linha, e sai um diploma para cada criança no mesmo PDF."}]},
+  {"slug": "frases-para-certificado-abc",
+   "title": "Frases para certificado do ABC e da formatura infantil",
+   "desc": "Frases e textos prontos para certificado do ABC, da Educação Infantil e do 5º ano: curtos, carinhosos e formais. Copie ou use direto no gerador.",
+   "h1": "Frases para certificado do ABC",
+   "intro": "O texto do certificado é curto: uma frase que diz o que a criança concluiu, onde e quando. Estas são as mais usadas, do mais carinhoso ao mais formal.",
+   "blocos": [
+    {"h2": "Carinhosas", "lista": ["“…concluiu com alegria e dedicação a etapa de alfabetização, aprendendo a ler e a escrever.”", "“…descobriu o mundo mágico das letras e agora lê as próprias histórias.”", "“…concluiu a Pré-escola com muito carinho, curiosidade e amizade.”"]},
+    {"h2": "Formais", "lista": ["“…concluiu com êxito o Ciclo de Alfabetização, no ano letivo de 2026.”", "“…concluiu com aproveitamento a Educação Infantil nesta instituição.”", "“…concluiu com êxito o 5º ano do Ensino Fundamental — anos iniciais.”"]},
+    {"h2": "Para honra ao mérito", "lista": ["“…se destacou pelo esforço, pela dedicação e pelo companheirismo.”", "“…foi exemplo de leitura, participação e respeito aos colegas.”"]}
+   ],
+   "faq": [{"q": "Posso usar essas frases em outro modelo?", "a": "Pode, à vontade. No nosso gerador elas já vêm aplicadas conforme o tipo de certificado escolhido."}]},
+  {"slug": "formatura-do-abc",
+   "title": "Formatura do ABC: roteiro da cerimônia, lembrancinhas e certificado",
+   "desc": "Como organizar a formatura do ABC: roteiro de 40 minutos, música de entrada, juramento, lembrancinhas baratas e certificado com o nome de cada criança.",
+   "h1": "Formatura do ABC",
+   "intro": "A formatura do ABC é curta, emocionante e dá trabalho pra professora. Um roteiro enxuto que cabe em 40 minutos.",
+   "blocos": [
+    {"h2": "Roteiro de 40 minutos", "ol": ["Entrada das crianças com música (5 min).", "Boas-vindas da direção (3 min).", "Apresentação da turma: uma leitura curta ou música (10 min).", "Juramento do ABC, repetido pelas crianças (3 min).", "Entrega dos certificados, um por um (15 min).", "Foto oficial e o capelo pro alto (4 min)."]},
+    {"h2": "Juramento do ABC (sugestão)", "p": ["“Prometo ler muitos livros, cuidar dos meus cadernos, respeitar os colegas e nunca parar de aprender!”"]},
+    {"h2": "Lembrancinhas baratas", "lista": ["Marca-página com a foto da criança", "Lápis personalizado com o nome", "Mini livro de histórias", "Certificado enrolado com fita — já é a lembrança principal"]}
+   ],
+   "faq": [{"q": "Quando acontece a formatura do ABC?", "a": "Geralmente na primeira quinzena de dezembro, junto com a festa de encerramento do ano letivo."}]},
+  {"slug": "certificado-honra-ao-merito-escolar",
+   "title": "Certificado de honra ao mérito escolar para imprimir",
+   "desc": "Certificado de honra ao mérito para alunos, com o nome de cada um e texto pronto. Ideal para premiar leitura, participação ou comportamento no fim do ano.",
+   "h1": "Certificado de honra ao mérito escolar",
+   "intro": "Honra ao mérito funciona melhor quando <strong>todo aluno recebe um</strong>, cada um por um motivo diferente. É o tipo de papel que a criança leva orgulhosa pra casa.",
+   "blocos": [
+    {"h2": "Ideias de categoria", "lista": ["Leitor(a) do ano", "Mais participativo(a)", "Melhor colega", "Mais criativo(a)", "Superação do ano", "Organização nota 10"]},
+    {"h2": "Como fazer pra turma toda", "p": ["Escolha o tipo “Honra ao mérito” no gerador e cole os nomes. Para ter o motivo de cada um, escreva junto do nome — por exemplo, “Ana Clara — Leitora do Ano”."]}
+   ],
+   "faq": [{"q": "Honra ao mérito precisa de assinatura?", "a": "É bom ter a da professora e a da direção; o gerador já coloca as linhas de assinatura com os nomes."}]}
+ ]
+}

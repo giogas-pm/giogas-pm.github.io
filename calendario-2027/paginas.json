@@ -1,0 +1,76 @@
+{
+ "app": "calendario-2027",
+ "nome": "Calendário 2027",
+ "cor": "#1d5fa8",
+ "emoji": "📅",
+ "base": "https://giogas-pm.github.io/calendario-2027/",
+ "botao_curto": "Montar o meu",
+ "cta": {"titulo": "Monte o seu calendário 2027 em 1 minuto", "texto": "Com as suas fotos, o nome da família, os aniversários e todos os feriados de 2027. Mensal ou anual, prévia grátis; imprimir sem marca custa R$14,90.", "botao": "📅 Montar meu calendário 2027"},
+ "irmaos": [{"url": "https://giogas-pm.github.io/planner-2027/", "texto": "Planner 2027 personalizado"}, {"url": "https://giogas-pm.github.io/bingo-de-natal/", "texto": "Bingo de Natal para imprimir"}, {"url": "https://giogas-pm.github.io/", "texto": "Outros apps pra celebrar junto"}],
+ "paginas": [
+  {"slug": "feriados-2027",
+   "title": "Feriados 2027: lista completa dos feriados nacionais e pontos facultativos",
+   "desc": "Todos os feriados nacionais de 2027 com o dia da semana, mais Carnaval, Quarta de Cinzas e Corpus Christi (pontos facultativos). Páscoa 2027 é em 28 de março.",
+   "h1": "Feriados 2027",
+   "intro": "2027 tem 10 feriados nacionais e 4 pontos facultativos federais. A Páscoa cai em <strong>28 de março</strong>, então o Carnaval é em <strong>8 e 9 de fevereiro</strong> e o Corpus Christi em <strong>27 de maio</strong>.",
+   "blocos": [
+    {"h2": "Feriados nacionais de 2027", "lista": ["<strong>01/01 (sexta)</strong> — Confraternização Universal", "<strong>26/03 (sexta)</strong> — Sexta-feira Santa (Paixão de Cristo)", "<strong>21/04 (quarta)</strong> — Tiradentes", "<strong>01/05 (sábado)</strong> — Dia do Trabalho", "<strong>07/09 (terça)</strong> — Independência do Brasil", "<strong>12/10 (terça)</strong> — Nossa Senhora Aparecida / Dia das Crianças", "<strong>02/11 (terça)</strong> — Finados", "<strong>15/11 (segunda)</strong> — Proclamação da República", "<strong>20/11 (sábado)</strong> — Dia Nacional de Zumbi e da Consciência Negra", "<strong>25/12 (sábado)</strong> — Natal"]},
+    {"h2": "Pontos facultativos federais", "lista": ["<strong>08/02 (segunda) e 09/02 (terça)</strong> — Carnaval", "<strong>10/02 (quarta)</strong> — Quarta-feira de Cinzas (até as 14h)", "<strong>27/05 (quinta)</strong> — Corpus Christi"], "p2": ["Ponto facultativo vale para o serviço público federal; na iniciativa privada depende da empresa, da convenção coletiva ou de lei estadual/municipal. Em muitas cidades o Carnaval e o Corpus Christi são feriados municipais."]},
+    {"h2": "Datas comemorativas (não são feriados)", "lista": ["28/03 — Páscoa", "09/05 — Dia das Mães", "12/06 — Dia dos Namorados", "08/08 — Dia dos Pais", "24/12 e 31/12 — vésperas de Natal e Ano-Novo"]}
+   ],
+   "faq": [{"q": "Quando é o Carnaval de 2027?", "a": "Segunda e terça, 8 e 9 de fevereiro de 2027. A Quarta-feira de Cinzas é dia 10."}, {"q": "Quando é a Páscoa de 2027?", "a": "Domingo, 28 de março de 2027. A Sexta-feira Santa, feriado nacional, é dia 26."}, {"q": "Quantos feriados nacionais caem em dia útil em 2027?", "a": "Sete dos dez: 01/01, 26/03, 21/04, 07/09, 12/10, 02/11 e 15/11. Três caem no sábado (01/05, 20/11 e 25/12)."}]},
+  {"slug": "feriados-prolongados-2027",
+   "title": "Feriados prolongados 2027: todos os feriadões e emendas do ano",
+   "desc": "Os feriadões de 2027 mês a mês: Carnaval, Sexta-feira Santa, e as terças de setembro, outubro e novembro que viram emenda de 4 dias. Planeje a viagem.",
+   "h1": "Feriados prolongados em 2027",
+   "intro": "2027 é um ano bom de feriadão: <strong>três feriados caem na terça-feira</strong> (7/9, 12/10 e 2/11), o que abre emendas de 4 dias pra quem conseguir folgar na segunda.",
+   "blocos": [
+    {"h2": "Todos os feriadões de 2027", "lista": ["<strong>1 a 3 de janeiro</strong> — Ano-Novo cai na sexta: fim de semana de 3 dias.", "<strong>6 a 10 de fevereiro</strong> — Carnaval (ponto facultativo; em muitas cidades, feriado).", "<strong>26 a 28 de março</strong> — Sexta-feira Santa + Páscoa.", "<strong>27 a 30 de maio</strong> — Corpus Christi na quinta, emenda na sexta (onde houver).", "<strong>4 a 7 de setembro</strong> — Independência na terça, emenda na segunda.", "<strong>9 a 12 de outubro</strong> — Nossa Senhora Aparecida na terça, emenda na segunda.", "<strong>30 de outubro a 2 de novembro</strong> — Finados na terça, emenda na segunda.", "<strong>13 a 15 de novembro</strong> — Proclamação da República na segunda: 3 dias sem emenda."]},
+    {"h2": "Os que caem no fim de semana", "p": ["Dia do Trabalho (1/5), Consciência Negra (20/11) e Natal (25/12) caem no sábado em 2027 — não geram folga extra. Tiradentes (21/4) cai numa quarta, no meio da semana."]},
+    {"h2": "Como aproveitar", "p": ["Pedir 3 dias de férias (6/9, 11/10 e 1/11) rende 12 dias de descanso em três feriadões de 4 dias. Marque tudo no calendário da família antes de comprar passagem — e confira os feriados estaduais e municipais da sua cidade."]}
+   ],
+   "faq": [{"q": "Qual o melhor feriadão de 2027?", "a": "O Carnaval (6 a 10/2) e as três emendas de terça: 7/9, 12/10 e 2/11, cada uma com 4 dias."}, {"q": "Emenda de feriado é obrigatória?", "a": "Não. Emenda depende de acordo com a empresa ou de decreto do órgão público."}]},
+  {"slug": "calendario-2027-para-imprimir",
+   "title": "Calendário 2027 para imprimir: mensal e anual, com feriados (A4)",
+   "desc": "Calendário 2027 para imprimir em A4, mensal (12 folhas) ou anual (1 folha), com todos os feriados nacionais, e personalizado com fotos, título e aniversários.",
+   "h1": "Calendário 2027 para imprimir",
+   "intro": "Um calendário de papel continua sendo o jeito mais fácil de a família inteira ver o mês de relance — na geladeira, na mesa do escritório ou na parede do quarto das crianças. Veja qual modelo escolher e como imprimir bem.",
+   "blocos": [
+    {"h2": "Mensal ou anual?", "p": ["<strong>Mensal</strong> (12 folhas A4, foto em cima e o mês embaixo): espaço pra anotar compromisso em cada dia, ótimo pra parede e pra dar de presente.", "<strong>Anual</strong> (1 folha A4 com os 12 meses): visão do ano inteiro pra planejar férias e feriadões; cabe na porta da geladeira ou no mural."]},
+    {"h2": "O que o calendário traz", "lista": ["Todos os feriados nacionais de 2027 marcados, com o nome embaixo do dia", "Pontos facultativos (Carnaval, Cinzas, Corpus Christi) em cor diferente", "Aniversários e datas da família que você escrever", "Semana começando no domingo ou na segunda", "Sua foto em cada mês (ou ilustração, se preferir sem fotos)"]},
+    {"h2": "Dicas de impressão", "ol": ["Salve como PDF e imprima em A4 com “ajustar à página” desligado (tamanho real).", "Para as fotos ficarem bonitas, use papel couché 150–180 g ou fotográfico.", "Na gráfica rápida, peça wire-o (espiral) na parte de cima e um furo pra pendurar.", "Anual: imprima também uma cópia em A3 pra planejar o ano no escritório."]}
+   ],
+   "faq": [{"q": "Tem versão grátis?", "a": "A prévia é grátis e mostra como o calendário vai ficar. Imprimir sem a marca “PRÉVIA” custa R$14,90, pagamento único."}, {"q": "Posso imprimir mais de uma vez?", "a": "Pode. Depois de liberado, você edita e imprime quantas vezes quiser neste aparelho."}]},
+  {"slug": "calendario-personalizado-com-fotos",
+   "title": "Calendário personalizado com fotos 2027: como fazer em casa",
+   "desc": "Como fazer um calendário 2027 personalizado com fotos da família: escolher as 12 fotos, marcar aniversários, imprimir em casa ou na gráfica e montar pra dar de presente.",
+   "h1": "Calendário personalizado com fotos",
+   "intro": "Calendário com foto da família é o presente que avó e avô usam o ano inteiro. Dá pra fazer em casa em 15 minutos — a parte mais demorada é escolher as fotos.",
+   "blocos": [
+    {"h2": "Escolhendo as 12 fotos", "lista": ["Uma foto por mês, de preferência <strong>na horizontal</strong> (o espaço é mais largo que alto).", "Combine a foto com o mês: praia em janeiro, fantasia em fevereiro, festa junina em junho, Natal em dezembro.", "Fotos de celular recentes têm resolução de sobra pra A4.", "Coloque o aniversariante do mês na foto daquele mês — é o detalhe que faz chorar."]},
+    {"h2": "Passo a passo", "ol": ["Abra o gerador e escreva o título (ex.: “Família Souza 2027”).", "Escolha as fotos no celular — elas não saem do aparelho.", "Escreva os aniversários como “14/03 Vó Lúcia”, um por linha.", "Escolha a cor e confira a prévia.", "Libere a impressão e salve o PDF."]},
+    {"h2": "Pra dar de presente", "p": ["Imprima em couché 180 g, peça wire-o na gráfica (custa pouco) e embrulhe com um cartão. Se for pra mais de uma pessoa da família, o mesmo PDF serve pra quantas cópias quiser."]}
+   ],
+   "faq": [{"q": "Minhas fotos ficam salvas na internet?", "a": "Não. O calendário é montado dentro do seu navegador e as fotos não são enviadas pra nenhum servidor."}, {"q": "E se eu tiver menos de 12 fotos?", "a": "As fotos se repetem ao longo dos meses. Sem fotos, cada mês ganha uma ilustração colorida."}]},
+  {"slug": "calendario-2027-anual",
+   "title": "Calendário 2027 anual em uma folha (com feriados) para imprimir",
+   "desc": "Calendário anual 2027 numa única folha A4 com os 12 meses, feriados nacionais destacados e os aniversários da família. Ideal pra geladeira e planejamento de férias.",
+   "h1": "Calendário 2027 anual em uma folha",
+   "intro": "Quando o objetivo é enxergar o ano inteiro — pra marcar férias, feriadões e viagens — nada bate a folha única com os 12 meses.",
+   "blocos": [
+    {"h2": "Pra que serve o calendário anual", "lista": ["Planejar férias em cima dos feriadões (2027 tem três feriados na terça-feira)", "Ver de relance quantas semanas faltam pra uma data", "Distribuir a escala de revezamento da família ou do trabalho", "Acompanhar contagem regressiva de viagem, casamento, parto"]},
+    {"h2": "Como é o nosso", "p": ["Folha A4 em pé, os 12 meses em 3 colunas, feriados nacionais em círculo colorido, datas da família com contorno, a lista de feriados no rodapé e uma foto com o título no topo."]}
+   ],
+   "faq": [{"q": "Dá pra imprimir em A3?", "a": "Sim: o PDF é vetorial em A4 e pode ser ampliado pra A3 na impressora ou na gráfica sem perder qualidade (a foto depende da resolução original)."}]},
+  {"slug": "calendario-2027-com-feriados",
+   "title": "Calendário 2027 com feriados nacionais marcados, mês a mês",
+   "desc": "Calendário 2027 mês a mês com os feriados nacionais e pontos facultativos marcados: janeiro a dezembro, dia da semana de cada feriado e as emendas.",
+   "h1": "Calendário 2027 com feriados",
+   "intro": "Mês a mês, os feriados e pontos facultativos de 2027 — do jeito que aparecem no calendário que você monta aqui.",
+   "blocos": [
+    {"h2": "1º semestre", "lista": ["<strong>Janeiro:</strong> 1 (sexta) Confraternização Universal", "<strong>Fevereiro:</strong> 8 e 9 Carnaval, 10 Cinzas (pontos facultativos)", "<strong>Março:</strong> 26 (sexta) Sexta-feira Santa; 28 Páscoa", "<strong>Abril:</strong> 21 (quarta) Tiradentes", "<strong>Maio:</strong> 1 (sábado) Dia do Trabalho; 27 (quinta) Corpus Christi (ponto facultativo); 9 Dia das Mães", "<strong>Junho:</strong> nenhum feriado nacional; 12 Dia dos Namorados"]},
+    {"h2": "2º semestre", "lista": ["<strong>Julho:</strong> nenhum feriado nacional", "<strong>Agosto:</strong> nenhum feriado nacional; 8 Dia dos Pais", "<strong>Setembro:</strong> 7 (terça) Independência", "<strong>Outubro:</strong> 12 (terça) Nossa Senhora Aparecida", "<strong>Novembro:</strong> 2 (terça) Finados; 15 (segunda) Proclamação da República; 20 (sábado) Consciência Negra", "<strong>Dezembro:</strong> 25 (sábado) Natal"]}
+   ],
+   "faq": [{"q": "A Consciência Negra é feriado nacional?", "a": "Sim, desde a Lei 14.759/2023. Em 2027, 20 de novembro cai num sábado."}, {"q": "O calendário mostra feriados estaduais?", "a": "Os nacionais vêm marcados automaticamente. Os estaduais e municipais você acrescenta em “datas da família” (ex.: “09/07 Revolução Constitucionalista”)."}]}
+ ]
+}
