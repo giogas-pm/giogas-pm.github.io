@@ -8,7 +8,8 @@ APPS = [("murai-repo", "murai", "Muraí — mural de recados coletivo", "Junte o
         ("album", "album", "Álbum Coletivo — fotos da festa por QR code", "Os convidados mandam as fotos da festa pelo celular, sem app e sem login."),
         ("cha-de-panela", "cha-de-panela", "Kit do Chá — brincadeiras de chá de panela personalizadas", "Bingo com cartelas únicas, quem conhece a noiva, stop e prendas com o nome do casal, prontos pra imprimir."),
         ("bodas", "bodas", "Bodas — calculadora e quadro de bodas", "Descubra as bodas do casal pela data e monte um quadro de bodas pra imprimir."),
-        ("sintonia", "sintonia", "Sintonia — teste de compatibilidade de casal", "Cada um responde no seu celular, sem ver o outro, e o casal descobre a % de sintonia.")]
+        ("sintonia", "sintonia", "Sintonia — teste de compatibilidade de casal", "Cada um responde no seu celular, sem ver o outro, e o casal descobre a % de sintonia."),
+        ("root-site/bingo-de-natal", "bingo-de-natal", "Bingo de Natal — Bingo de Natal: cartelas únicas para imprimir (PDF)", "Gere cartelas de bingo de Natal únicas, com figuras e o nome de cada jogador, prontas para imprimir. Prévia grátis e sorteador na tela.")]
 BASE = "https://giogas-pm.github.io/"
 def title_of(repo, url):
     rel = url.replace(BASE, "").split("/", 1)[1] if "/" in url.replace(BASE, "") else ""
@@ -20,7 +21,8 @@ def title_of(repo, url):
         return url
 secs, maps = [], []
 for repo, path, name, desc in APPS:
-    sm = open(os.path.join("..", repo, "sitemap.xml"), encoding="utf-8").read()
+    try: sm = open(os.path.join("..", repo, "sitemap.xml"), encoding="utf-8").read()
+    except FileNotFoundError: print("sem sitemap ainda:", repo); continue
     urls = re.findall(r"<loc>([^<]+)</loc>", sm)
     maps.append(BASE + path + "/sitemap.xml")
     lis = "".join(f'<li><a href="{u}">{html.escape(title_of(repo, u))}</a></li>' for u in urls)

@@ -1,0 +1,102 @@
+{
+ "app": "bingo-de-natal",
+ "nome": "Bingo de Natal",
+ "cor": "#b3261e",
+ "base": "https://giogas-pm.github.io/bingo-de-natal/",
+ "botao_curto": "Montar cartelas",
+ "cta": {"titulo": "Monte as cartelas do seu bingo agora", "texto": "Cartelas únicas com figuras de Natal e o nome de cada jogador. Prévia grátis, sorteador na tela grátis; imprimir sem marca custa R$14,90 (até 100 cartelas).", "botao": "🎄 Montar meu bingo de Natal"},
+ "irmaos": [{"url": "https://giogas-pm.github.io/carta-noel/", "texto": "Carta do Papai Noel personalizada"}, {"url": "https://giogas-pm.github.io/", "texto": "Outros apps pra celebrar junto"}],
+ "paginas": [
+  {"slug": "bingo-de-natal-para-imprimir",
+   "title": "Bingo de Natal para imprimir: cartelas únicas com figuras e nomes",
+   "desc": "Como montar um bingo de Natal para imprimir com cartelas que não se repetem, fichas de sorteio e o nome de cada jogador. Modelo 3×3, 4×4 e 5×5.",
+   "h1": "Bingo de Natal para imprimir",
+   "intro": "O problema dos modelos prontos de bingo de Natal é que as cartelas se repetem: três pessoas marcam a mesma linha ao mesmo tempo e a brincadeira perde a graça. Aqui está o que uma cartela boa precisa ter — e como gerar as suas em 1 minuto.",
+   "blocos": [
+    {"h2": "O que um bingo de Natal imprimível precisa ter", "lista": ["<strong>Cartelas diferentes entre si</strong> — cada uma com um conjunto próprio de figuras, pra não dar empate a toda hora.", "<strong>Figuras grandes com o nome embaixo</strong> — criança pequena reconhece o desenho, adulto lê a palavra.", "<strong>Fichas do sorteio</strong> com os mesmos itens das cartelas, pra recortar e colocar num saquinho.", "<strong>Espaço central livre</strong> (no 5×5), como no bingo tradicional.", "<strong>Tamanho de impressão sem desperdício</strong>: 4 cartelas por folha A4 dá o tamanho certo pra marcar com feijão ou caneta."]},
+    {"h2": "Qual tamanho de cartela escolher", "p": ["<strong>3×3</strong> (9 figuras) é o ideal pra crianças de 3 a 6 anos: a partida é rápida e ninguém desiste no meio. <strong>4×4</strong> funciona bem pra família misturada, com crianças e adultos. <strong>5×5</strong> é o clássico, com o centro livre — rende partidas mais longas e disputadas.", "Se o grupo prefere números, use o bingo de 1 a 75 com as colunas N·A·T·A·L no lugar de B·I·N·G·O: é o mesmo jogo de sempre, com cara de Natal."]},
+    {"h2": "Passo a passo pra imprimir", "ol": ["Abra o gerador, escreva o nome do bingo (ex.: “Natal da Família Souza”).", "Escolha figuras, palavras ou números e o tamanho.", "Cole os nomes dos jogadores, um por linha — cada um ganha a própria cartela.", "Confira a prévia (grátis) e libere a impressão sem marca.", "Imprima em papel A4 comum; se quiser reaproveitar, plastifique ou coloque em plástico e marque com caneta de quadro branco."]}
+   ],
+   "faq": [{"q": "Posso imprimir em casa, em impressora comum?", "a": "Pode. O arquivo é A4, colorido, e fica bom também em preto e branco — as figuras continuam legíveis."}, {"q": "Quantas cartelas cabem por folha?", "a": "Quatro cartelas por folha A4, em qualquer tamanho (3×3, 4×4 ou 5×5). As fichas do sorteio saem numa página separada."}, {"q": "O bingo de Natal para imprimir é grátis?", "a": "A prévia e o sorteador na tela são grátis. A impressão sem a marca “PRÉVIA” custa R$14,90, pagamento único, e vale pra até 100 cartelas."}]},
+  {"slug": "bingo-de-natal-em-familia",
+   "title": "Bingo de Natal em família: como organizar na ceia (com prêmios e regras)",
+   "desc": "Guia prático pra fazer um bingo de Natal em família: quando jogar na noite do dia 24, quantas rodadas, prêmios baratos e como incluir avós e crianças.",
+   "h1": "Bingo de Natal em família",
+   "intro": "O bingo é a brincadeira de Natal que funciona com a vó de 85 e o sobrinho de 5 ao mesmo tempo. Dá pra organizar em 15 minutos, desde que você resolva três coisas antes: a hora, as rodadas e os prêmios.",
+   "blocos": [
+    {"h2": "A melhor hora pra jogar", "p": ["Entre o fim da ceia e a meia-noite. É o momento em que as crianças já estão agitadas esperando o Papai Noel e os adultos estão sentados à mesa — o bingo segura todo mundo junto por 40 minutos sem esforço."]},
+    {"h2": "Um roteiro de 4 rodadas que funciona", "ol": ["<strong>Rodada 1 — uma linha qualquer</strong> (horizontal, vertical ou diagonal): rápida, pra todo mundo entender.", "<strong>Rodada 2 — os quatro cantos</strong>: parece fácil e nunca é.", "<strong>Rodada 3 — um “X”</strong> (as duas diagonais): dá suspense.", "<strong>Rodada 4 — cartela cheia</strong>: vale o prêmio maior. Troque as cartelas entre os jogadores antes de começar, pra misturar a sorte."]},
+    {"h2": "Como incluir todo mundo", "lista": ["Pra quem não lê: cartela de <strong>figuras 3×3</strong>, com desenho grande.", "Pra avós com vista cansada: imprima a cartela em folha inteira ou use o modo <strong>palavras</strong>, com letra maior.", "Pra quem não gosta de competir: coloque essa pessoa como “cantora” do sorteio — é o papel mais divertido da noite.", "Cartela com o nome de cada um evita briga de “essa é minha”."]}
+   ],
+   "faq": [{"q": "Quantas pessoas precisa pra ter graça?", "a": "A partir de 4 jogadores já funciona. Com mais de 15, faça rodadas mais longas (cartela cheia) pra não acabar rápido demais."}, {"q": "Dá pra jogar em família sem imprimir?", "a": "Dá pra usar o sorteador na tela à vontade. Pra cartelas no papel, sem a marca de prévia, é o pagamento único de R$14,90."}, {"q": "Precisa de dinheiro pra apostar?", "a": "Não. Em família o melhor é prêmio simbólico: chocolates, lembrancinhas ou “vale-tarefa” (ex.: quem ganha escapa de lavar a louça)."}]},
+  {"slug": "bingo-natalino-infantil",
+   "title": "Bingo natalino infantil: cartelas com figuras para crianças que ainda não leem",
+   "desc": "Bingo de Natal para crianças de 3 a 8 anos: cartelas 3×3 com figuras grandes, como adaptar as regras e usar a brincadeira pra treinar leitura.",
+   "h1": "Bingo natalino infantil",
+   "intro": "Criança pequena não aguenta uma partida de 5×5: perde o interesse antes da terceira pedra. O bingo natalino infantil funciona quando a cartela é menor, as figuras são grandes e toda criança ganha alguma coisa.",
+   "blocos": [
+    {"h2": "Cartela certa pra cada idade", "lista": ["<strong>3 a 5 anos:</strong> 3×3 com figuras. Nove desenhos que a criança reconhece (Papai Noel, rena, árvore, presente).", "<strong>6 e 7 anos:</strong> 4×4 com figuras e o nome embaixo — ela associa a imagem à palavra enquanto joga.", "<strong>8 anos em diante:</strong> modo palavras (sem desenho) vira exercício de leitura sem parecer lição."]},
+    {"h2": "Regras adaptadas pros pequenos", "ol": ["Mostre a ficha sorteada (ou a tela do sorteador) em vez de só falar o nome.", "Use pedrinhas, feijões ou adesivos pra marcar — criança adora colar adesivo.", "Jogue até todo mundo completar a cartela: o primeiro ganha o prêmio, os outros ganham um doce quando terminam.", "Troque o grito de “bingo” por “Feliz Natal!” — é mais engraçado e as crianças lembram."]},
+    {"h2": "Na escola ou no berçário", "p": ["Professora de educação infantil pode gerar uma cartela com o nome de cada aluno da turma (até 100) e usar o sorteador projetado na TV. A atividade trabalha atenção, reconhecimento de imagem e vocabulário do Natal."]}
+   ],
+   "faq": [{"q": "Qual a idade mínima pra jogar bingo de Natal?", "a": "A partir de 3 anos, com cartela 3×3 de figuras e um adulto ajudando a marcar."}, {"q": "As figuras são adequadas pra crianças?", "a": "Sim: árvore, Papai Noel, rena, presente, sino, boneco de neve, biscoito, ursinho, trenzinho e outros itens do Natal."}, {"q": "Posso fazer uma cartela com o nome de cada criança?", "a": "Pode. Cole a lista de nomes, um por linha, e cada criança ganha a própria cartela — todas diferentes."}]},
+  {"slug": "bingo-de-natal-para-empresa",
+   "title": "Bingo de Natal na empresa: dinâmica para confraternização de fim de ano",
+   "desc": "Como usar o bingo de Natal na confraternização da empresa: presencial ou online, cartelas com o nome de cada colaborador, prêmios e roteiro de 30 minutos.",
+   "h1": "Bingo de Natal para a confraternização da empresa",
+   "intro": "Na confraternização, o bingo resolve o momento morto entre o almoço e a troca de presentes. É uma dinâmica que não constrange ninguém (não exige falar em público) e cabe em 30 minutos.",
+   "blocos": [
+    {"h2": "Roteiro de 30 minutos", "ol": ["<strong>5 min</strong> — distribua as cartelas com o nome de cada pessoa (evita a fila na hora).", "<strong>20 min</strong> — três rodadas: uma linha, quatro cantos e cartela cheia.", "<strong>5 min</strong> — entrega dos prêmios e foto do grupo com as cartelas."]},
+    {"h2": "Presencial ou online", "p": ["No presencial, imprima 4 cartelas por folha e sorteie projetando o sorteador na TV da sala de reunião. No online (Meet, Teams, Zoom), mande o PDF da cartela de cada um no chat privado e compartilhe a tela com o sorteador — cada pessoa marca na própria folha ou no celular."]},
+    {"h2": "Prêmios que funcionam no trabalho", "lista": ["Folga de meio período (se o gestor topar, é o prêmio mais disputado).", "Vale-café ou vale-lanche da padaria da esquina.", "Panetone, chocolate, caneca.", "“Escolhe a música da próxima reunião” — custo zero e rende piada o ano inteiro."]}
+   ],
+   "faq": [{"q": "Quantas cartelas posso gerar pra empresa?", "a": "Até 100 cartelas diferentes no mesmo bingo, cada uma com o nome do colaborador."}, {"q": "Tem nota fiscal?", "a": "O pagamento é feito pelo Mercado Pago (Pix ou cartão), que emite o comprovante da compra."}, {"q": "Funciona no home office?", "a": "Funciona: cada um recebe o PDF da sua cartela e o sorteio acontece pela tela compartilhada."}]},
+  {"slug": "bingo-de-natal-amigo-secreto",
+   "title": "Bingo de Natal no amigo secreto: 3 jeitos de juntar as duas brincadeiras",
+   "desc": "Ideias pra misturar o bingo de Natal com o amigo secreto: bingo das pistas, bingo que decide a ordem da troca e bingo de roubo de presentes.",
+   "h1": "Bingo de Natal no amigo secreto",
+   "intro": "Amigo secreto é ótimo, mas a troca demora e metade da mesa se distrai. Juntar com o bingo deixa a revelação mais divertida e dá ritmo à noite. Três formatos testados:",
+   "blocos": [
+    {"h2": "1. O bingo decide a ordem da troca", "p": ["Joguem uma rodada de linha. Quem fizer bingo primeiro é o primeiro a revelar o seu amigo secreto, o segundo a completar revela em seguida, e assim por diante. Ninguém fica esperando parado: todo mundo está jogando."]},
+    {"h2": "2. Bingo de roubo (amigo ladrão)", "p": ["Cada pessoa traz um presente embrulhado sem nome. Quem completa uma linha escolhe um presente da pilha — ou “rouba” o de alguém que já abriu. Rende muita risada em grupo de amigos e na firma."]},
+    {"h2": "3. Bingo das pistas", "p": ["Antes de revelar, a pessoa dá uma pista sobre o amigo secreto para cada ficha sorteada que ela tiver na cartela. Quanto mais o sorteio anda, mais pistas saem — o grupo tenta adivinhar antes da revelação."]},
+    {"h2": "Dica de organização", "lista": ["Gere as cartelas já com o nome de cada participante.", "Deixe o sorteador aberto no celular de quem organiza.", "Combine o valor do presente antes — o bingo é o jogo, o presente é o prêmio."]}
+   ],
+   "faq": [{"q": "Precisa sortear o amigo secreto antes?", "a": "No formato 1 e no 3, sim, o amigo secreto é sorteado antes como sempre. No formato 2 (roubo) não precisa: os presentes são anônimos."}, {"q": "Quanto tempo dura?", "a": "Entre 30 e 50 minutos para 10 a 15 pessoas."}]},
+  {"slug": "premios-para-bingo-de-natal",
+   "title": "Prêmios para bingo de Natal: 25 ideias baratas (de R$0 a R$20)",
+   "desc": "Ideias de prêmios para bingo de Natal em família, na escola ou na empresa — de brindes de custo zero a lembrancinhas de até R$20.",
+   "h1": "Prêmios para bingo de Natal",
+   "intro": "Prêmio de bingo não precisa ser caro: precisa ser disputado. Separe um prêmio pequeno por rodada e um maior pra cartela cheia. Ideias por faixa de preço:",
+   "blocos": [
+    {"h2": "Custo zero", "lista": ["Vale “não lava a louça da ceia”.", "Escolhe o filme de Natal da noite.", "Primeiro a abrir os presentes.", "Senta na cabeceira da mesa no almoço do dia 25.", "Coroa de papel de “rei/rainha do bingo” pra usar até o fim da festa."]},
+    {"h2": "Até R$10", "lista": ["Bombom ou barra de chocolate.", "Pacote de figurinhas ou adesivos (crianças).", "Mini panetone ou chocotone.", "Meia de Natal.", "Enfeite de árvore escolhido pelo ganhador.", "Vela aromática pequena."]},
+    {"h2": "De R$10 a R$20", "lista": ["Caneca com chocolate quente em pó.", "Jogo de cartas (Uno, baralho).", "Livro de colorir com lápis (crianças).", "Porta-retrato com a foto da família tirada na hora.", "Kit de cookies caseiros embalados."]},
+    {"h2": "Como distribuir os prêmios", "p": ["Pra 4 rodadas, a proporção que funciona é 3 prêmios pequenos e 1 maior. Se houver crianças, tenha um saquinho de doces pra quem não ganhou — ninguém sai de mãos vazias e não tem choro."]}
+   ],
+   "faq": [{"q": "Quantos prêmios preciso?", "a": "Um por rodada. Com 4 rodadas, 4 prêmios — mais um doce de consolação pras crianças."}, {"q": "Vale prêmio em dinheiro?", "a": "Em família, prefira prêmios simbólicos: mantém a brincadeira leve e evita discussão."}]},
+  {"slug": "regras-do-bingo-de-natal",
+   "title": "Regras do bingo de Natal: como jogar, tipos de rodada e desempate",
+   "desc": "As regras do bingo de Natal explicadas de forma simples: como marcar, quando gritar bingo, tipos de rodada (linha, cantos, X, cartela cheia) e o que fazer no empate.",
+   "h1": "Regras do bingo de Natal",
+   "intro": "O bingo de Natal segue as regras do bingo tradicional, trocando os números por figuras (ou mantendo os números com as colunas N·A·T·A·L). Tudo o que você precisa pra organizar sem discussão:",
+   "blocos": [
+    {"h2": "Como se joga", "ol": ["Cada jogador recebe uma cartela diferente.", "Quem sorteia tira uma ficha (ou toca em “Sortear” no celular) e anuncia em voz alta.", "Quem tem aquela figura na cartela marca.", "Ao completar o padrão da rodada, o jogador grita “Bingo!” (ou “Feliz Natal!”).", "Quem sorteia confere a cartela com as fichas já sorteadas. Se estiver certa, ganha a rodada."]},
+    {"h2": "Tipos de rodada", "lista": ["<strong>Linha:</strong> qualquer linha horizontal, vertical ou diagonal completa.", "<strong>Quatro cantos:</strong> só os quatro cantos da cartela.", "<strong>X:</strong> as duas diagonais completas.", "<strong>Moldura:</strong> toda a borda da cartela.", "<strong>Cartela cheia:</strong> todas as casas marcadas. É a rodada do prêmio maior."]},
+    {"h2": "Empate e erros", "p": ["Se duas pessoas gritam ao mesmo tempo com a cartela certa, as duas ganham — ou desempate com mais uma ficha sorteada: quem tiver a figura na cartela leva. Se alguém gritar bingo com a cartela errada, o jogo segue normalmente (em família, a punição tradicional é pagar uma prenda)."]},
+    {"h2": "Casa central livre", "p": ["Na cartela 5×5, o quadrado do meio já vem marcado (“Feliz Natal”) e conta para linha, X e cartela cheia. Nas cartelas 3×3 e 4×4 não existe casa livre."]}
+   ],
+   "faq": [{"q": "Quantas fichas tem o bingo de Natal?", "a": "No modo figuras, 40 fichas de Natal. No modo números, 75 (N 1–15, A 16–30, T 31–45, A 46–60, L 61–75)."}, {"q": "Pode ter duas cartelas iguais?", "a": "Não deveria. No gerador, cada cartela tem um conjunto próprio de figuras, e repetições são descartadas."}]},
+  {"slug": "bingo-de-natal-na-escola",
+   "title": "Bingo de Natal na escola: atividade para a turma inteira (com o nome de cada aluno)",
+   "desc": "Atividade de bingo de Natal para educação infantil e ensino fundamental: cartela com o nome de cada aluno, modo figuras ou palavras e o sorteador projetado na TV.",
+   "h1": "Bingo de Natal na escola",
+   "intro": "Na última semana de aula, o bingo de Natal ocupa a turma inteira com uma atividade que tem objetivo pedagógico de verdade — atenção, vocabulário e leitura — e dispensa preparo longo.",
+   "blocos": [
+    {"h2": "Objetivos pedagógicos por série", "lista": ["<strong>Educação infantil:</strong> reconhecimento de imagens, atenção, esperar a vez.", "<strong>1º e 2º ano:</strong> associação figura–palavra; no modo palavras, leitura de palavras do Natal.", "<strong>3º ao 5º ano:</strong> modo números (1 a 75) para treinar reconhecimento de números e dezenas."]},
+    {"h2": "Como preparar em 10 minutos", "ol": ["Cole a lista de chamada no gerador (um nome por linha).", "Escolha o tamanho: 3×3 pra infantil, 4×4 ou 5×5 pro fundamental.", "Imprima 4 cartelas por folha A4 e recorte.", "Projete o sorteador na TV ou use as fichas impressas."]},
+    {"h2": "Variações para a sala", "lista": ["<strong>Bingo em dupla:</strong> uma cartela por dupla, trabalha colaboração.", "<strong>Bingo de palavras:</strong> quem sorteia só fala a palavra, sem mostrar a figura.", "<strong>Bingo de frases:</strong> para os maiores, cada aluno forma uma frase com a palavra marcada antes de seguir."]}
+   ],
+   "faq": [{"q": "Cabe a turma toda?", "a": "Sim, até 100 cartelas diferentes no mesmo bingo, cada uma com o nome de um aluno."}, {"q": "Preciso cadastrar dados dos alunos?", "a": "Não. Os nomes ficam só no seu aparelho — nada é enviado para o servidor."}]}
+ ]
+}

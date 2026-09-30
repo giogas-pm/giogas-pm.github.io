@@ -7,3 +7,4 @@ Sitemap: https://giogas-pm.github.io/album/sitemap.xml
 Sitemap: https://giogas-pm.github.io/cha-de-panela/sitemap.xml
 Sitemap: https://giogas-pm.github.io/bodas/sitemap.xml
 Sitemap: https://giogas-pm.github.io/sintonia/sitemap.xml
+Sitemap: https://giogas-pm.github.io/bingo-de-natal/sitemap.xml

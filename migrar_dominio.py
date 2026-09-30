@@ -38,6 +38,7 @@ def main():
     if aplicar:
         open(os.path.join(base, "CNAME"), "w").write(dom + "\n")
         print("CNAME escrito no repo raiz:", dom)
+        print("FÁBRICA tj: rode tambem  supabase db query --linked \"update tj_catalogo set site=replace(site,'%s','%s')\"  (em apps/_fabrica)" % (OLD, new))
     print(("APLICADO" if aplicar else "DRY-RUN"), total, "ocorrências")
 
 if __name__ == "__main__":
