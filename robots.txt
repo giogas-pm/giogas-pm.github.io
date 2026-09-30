@@ -12,3 +12,4 @@ Sitemap: https://giogas-pm.github.io/amigo-secreto/sitemap.xml
 Sitemap: https://giogas-pm.github.io/calendario-2027/sitemap.xml
 Sitemap: https://giogas-pm.github.io/certificado-abc/sitemap.xml
 Sitemap: https://giogas-pm.github.io/planner-2027/sitemap.xml
+Sitemap: https://giogas-pm.github.io/planilhas/sitemap.xml

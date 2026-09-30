@@ -1,0 +1,69 @@
+<!doctype html><html lang="pt-BR"><head>
+<script>/*tj-track v1: padrao de medicao - filtra teste/robo, sessao, origem, engajamento*/(function(T){try{var q=new URLSearchParams(location.search),ls=localStorage,ss=sessionStorage,ua=navigator.userAgent||'';if(q.get('qa')==='1')ls.setItem('tj_team','1');if(q.get('qa')==='0')ls.removeItem('tj_team');var skip=!!navigator.webdriver||/headless|bot|crawl|spider|lighthouse|inspectiontool|facebookexternalhit|pinterest\/|slurp|python|curl|wget|playwright|puppeteer|phantom/i.test(ua)||ls.getItem('tj_team')==='1'||location.protocol==='file:'||/^(localhost|127\.)/.test(location.hostname);var sid=ss.getItem('tj_sid');if(!sid){sid=Math.random().toString(36).slice(2,10);ss.setItem('tj_sid',sid)}var nv=!ls.getItem('tj_vid');if(nv)ls.setItem('tj_vid','1');var r='';try{var h=new URL(document.referrer).hostname;if(h!==location.hostname)r=h}catch(_){}var src=q.get('src')||q.get('utm_source')||'';var dev=/mobi|android|iphone/i.test(ua)?'m':'d';var U,H,A,of=window.fetch;window.fetch=function(u,o){try{if(typeof u==='string'&&u.indexOf('/rest/v1/'+T)>-1&&o&&o.method==='POST'){if(skip)return Promise.resolve(new Response(null,{status:201}));U=u;H=o.headers;var b=JSON.parse(o.body);if(b&&!Array.isArray(b)){if(b.app)A=b.app;b.meta=Object.assign({},b.meta||{},{sid:sid});if(b.evento==='visit'||b.evento==='seo_land'){b.meta.ref=r;b.meta.nv=nv;b.meta.dev=dev;if(src&&!b.meta.src)b.meta.src=src}o=Object.assign({},o,{body:JSON.stringify(b)})}}}catch(_){}return of.apply(this,[u,o])};var eg=function(){if(skip||!U||ss.getItem('tj_eg'))return;ss.setItem('tj_eg','1');['pointerdown','keydown','scroll'].forEach(function(e){removeEventListener(e,eg,true)});try{of(U,{method:'POST',headers:H,body:JSON.stringify(A?{app:A,evento:'engaged',meta:{sid:sid}}:{evento:'engaged',meta:{sid:sid}})})}catch(_){}};['pointerdown','keydown','scroll'].forEach(function(e){addEventListener(e,eg,{capture:true,passive:true})})}catch(_){}})('tj_eventos');</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Download da sua planilha | FicaPronto</title><meta name="description" content="Página de download das planilhas FicaPronto.">
+<link rel="canonical" href="https://giogas-pm.github.io/planilhas/obrigado/"><meta name="theme-color" content="#2F7D62">
+<meta property="og:type" content="website"><meta property="og:title" content="Download da sua planilha | FicaPronto"><meta property="og:description" content="Página de download das planilhas FicaPronto.">
+<meta property="og:url" content="https://giogas-pm.github.io/planilhas/obrigado/"><meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+<style>
+:root{--c:#2F7D62;--ink:#2a211b;--mut:#6f6257;--bg:#fffaf3;--line:#eadfce}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+a{color:var(--c)}img{max-width:100%;height:auto;display:block}
+.w{max-width:980px;margin:0 auto;padding:0 16px}
+.top{padding:12px 0;font-weight:800;letter-spacing:.2px}.top a{text-decoration:none;color:var(--ink)}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center;padding:12px 0 28px}
+h1{font-size:clamp(28px,4.4vw,42px);line-height:1.12;margin:6px 0 12px}
+.tag{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:99px;padding:3px 12px;font-size:13px;color:var(--mut)}
+.sub{font-size:18px;color:#46392f}
+.ok{list-style:none;padding:0;margin:14px 0}.ok li{padding:3px 0 3px 26px;position:relative}.ok li:before{content:"✓";position:absolute;left:0;color:var(--c);font-weight:900}
+.shot{border-radius:14px;box-shadow:0 12px 40px rgba(60,40,20,.18);border:1px solid var(--line);background:#fff;cursor:zoom-in}
+.buy{background:#fff;border:2px solid var(--c);border-radius:18px;padding:18px;margin:18px 0}
+.price{font-size:40px;font-weight:900;line-height:1}.price small{font-size:15px;font-weight:600;color:var(--mut)}
+.btn{display:block;width:100%;border:0;border-radius:14px;background:var(--c);color:#fff;font-size:19px;font-weight:800;padding:16px;cursor:pointer;margin-top:12px}
+.btn:disabled{opacity:.6}
+.bump{display:flex;gap:10px;align-items:flex-start;background:#fff8e1;border:2px dashed #e0b44c;border-radius:12px;padding:12px;margin-top:14px;cursor:pointer}
+.bump input{width:22px;height:22px;margin-top:2px;flex:none;accent-color:var(--c)}
+.bump b{color:#8a5a00}
+.mini{font-size:13px;color:var(--mut);margin-top:8px;text-align:center}
+section{padding:26px 0;border-top:1px solid var(--line)}
+h2{font-size:26px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}.card h3{margin:0 0 6px;font-size:17px}.card p{margin:0;color:#4a3d33;font-size:15px}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gal figure{margin:0}.gal figcaption{font-size:13px;color:var(--mut);margin-top:6px;text-align:center}
+.gar{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}.gar .s{font-size:44px}
+details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:8px 0}summary{font-weight:700;cursor:pointer}
+.foot{padding:26px 0 90px;color:var(--mut);font-size:14px}
+.sticky{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);padding:10px 16px;display:none;z-index:9;box-shadow:0 -6px 20px rgba(0,0,0,.08)}
+.sticky .btn{margin:0;padding:13px;font-size:17px}
+#zoom{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;z-index:20;padding:12px;overflow:auto}#zoom img{max-width:none;width:min(1400px,180vw)}
+.hub{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}.hub a{text-decoration:none;color:inherit}.hub .card img{border-radius:10px;margin-bottom:10px;border:1px solid var(--line)}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.grid,.gal{grid-template-columns:1fr}.sticky{display:block}}
+</style></head><body>
+<div class="w"><div class="top"><a href="https://giogas-pm.github.io/planilhas/">📊 FicaPronto <span style="font-weight:500;color:var(--mut)">planilhas</span></a></div>
+<div id="espera"><h1>Confirmando seu pagamento...</h1><p class="sub" id="msg">Isso leva poucos segundos (Pix) ou até 1 minuto (cartão). Não feche esta página.</p></div>
+<div id="pronto" style="display:none"><h1>🎉 Pronto! Suas planilhas:</h1>
+<div id="lista"></div><p class="mini" style="text-align:left">Os links valem 15 minutos. Se expirar, é só recarregar esta página (guarde o endereço dela nos favoritos).<br>Dica: para usar no Google Planilhas, suba o arquivo em drive.google.com e abra com Planilhas Google.</p>
+<div class="buy" id="up" style="display:none"><div style="font-weight:800;color:var(--c);font-size:14px">OFERTA ÚNICA · SÓ NESTA PÁGINA</div>
+<h2 style="margin:6px 0">Leve as 10 planilhas por R$ 47</h2><p>As 5 planilhas principais (casamento, enxoval, finanças do casal, festa infantil e precificação de confeitaria) + os 5 complementos. Se comprar separado, sairia R$ 219,50.</p>
+<button class="btn" id="upbtn">Sim, quero o pacote completo por R$ 47</button><div class="mini">Pagamento separado, pelo Mercado Pago. Garantia de 7 dias.</div></div></div>
+<div class="foot">Problema com o download? Recarregue a página. Garantia de 7 dias pelo Mercado Pago (Minhas compras › Preciso de ajuda).</div></div>
+<script src="https://giogas-pm.github.io/planilhas/tj.js"></script>
+<script>
+TJ.init({app:'planilhas'});
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(_){return null}}
+async function baixar(){var r=await fetch('https://diemqzngskmcuytkzjhr.supabase.co/functions/v1/planilha-download',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({slug:TJ.slug})});
+var j=await r.json().catch(function(){return{}});if(!j.ok)return false;
+document.getElementById('espera').style.display='none';document.getElementById('pronto').style.display='block';
+document.getElementById('lista').innerHTML=j.arquivos.map(function(a){return '<a class="btn" style="text-decoration:none;text-align:center;margin:10px 0" href="'+a.url+'">⬇️ Baixar: '+a.nome.replace(/</g,'')+'</a>'}).join('');
+if(!ls('tj_buy_'+TJ.slug)){ls('tj_buy_'+TJ.slug,'1');TJ.track('purchase',{p:j.produto})}
+if(j.produto!=='pacote')document.getElementById('up').style.display='block';return true}
+(async function(){if(!TJ.slug){document.getElementById('msg').textContent='Não encontramos o seu pedido neste endereço. Se você pagou, volte pelo link do e-mail do Mercado Pago ou pelo mesmo navegador.';return}
+if(await baixar())return;
+var st=new URLSearchParams(location.search).get('pago');if(st==='falhou'){document.getElementById('msg').textContent='O pagamento não foi concluído. Volte e tente de novo.';return}
+for(var i=0;i<60;i++){await new Promise(function(r){setTimeout(r,3000)});if(await baixar())return}
+document.getElementById('msg').textContent='Ainda aguardando a confirmação do Mercado Pago. Se pagou com cartão, pode levar alguns minutos: recarregue esta página daqui a pouco.'})();
+document.getElementById('upbtn').addEventListener('click',async function(){var b=this;b.disabled=true;b.textContent='Abrindo o pagamento...';TJ.track('upsell_accept');
+var s=TJ.slug;TJ.novoSlug();var j=await TJ.checkout('pacote').catch(function(){return null});if(!j||!j.ok){TJ.slug=s;b.disabled=false;b.textContent='Sim, quero o pacote completo por R$ 47'}});
+</script>
+</body></html>
