@@ -1,0 +1,62 @@
+{
+ "app": "planner-2027",
+ "nome": "Planner 2027",
+ "cor": "#2f7d6d",
+ "emoji": "🗓️",
+ "base": "https://giogas-pm.github.io/planner-2027/",
+ "botao_curto": "Montar o meu",
+ "cta": {"titulo": "Monte o seu planner 2027 agora", "texto": "Capa com o seu nome, metas, 12 meses com feriados, hábitos, finanças e as 53 semanas. Prévia grátis; o PDF completo sem marca custa R$14,90.", "botao": "🗓️ Montar meu planner 2027"},
+ "irmaos": [{"url": "https://giogas-pm.github.io/calendario-2027/", "texto": "Calendário 2027 com fotos"}, {"url": "https://giogas-pm.github.io/calendario-2027/feriados-2027/", "texto": "Feriados 2027"}, {"url": "https://giogas-pm.github.io/", "texto": "Outros apps pra celebrar junto"}],
+ "paginas": [
+  {"slug": "planner-2027-para-imprimir",
+   "title": "Planner 2027 para imprimir: PDF com meses, semanas, metas e hábitos",
+   "desc": "Planner 2027 para imprimir em A4: visão anual, metas, 12 meses com feriados, controle de hábitos, finanças do mês e 53 páginas semanais. Personalizado com seu nome.",
+   "h1": "Planner 2027 para imprimir",
+   "intro": "Planner impresso tem uma vantagem que app nenhum tem: ele fica aberto em cima da mesa. Veja o que um planner anual precisa ter e como imprimir o seu sem gastar com papelaria.",
+   "blocos": [
+    {"h2": "As páginas que fazem diferença", "lista": ["<strong>Ano em 1 página</strong> — pra marcar férias, provas e viagens.", "<strong>Metas do ano</strong> por área da vida (saúde, dinheiro, trabalho, família…).", "<strong>Mensal</strong> com os feriados já marcados e espaço em cada dia.", "<strong>Semanal</strong> com os 7 dias e as prioridades da semana.", "<strong>Hábitos</strong> e <strong>finanças</strong> uma vez por mês, pra revisar."]},
+    {"h2": "Como imprimir e encadernar", "ol": ["Salve o PDF e imprima frente e verso em A4 (papel 75–90 g serve; 120 g se for usar caneta marca-texto).", "Leve a uma gráfica rápida e peça espiral ou wire-o com capa de plástico.", "Quer menor? Imprima em “2 páginas por folha” e corte ao meio: vira um planner A5."]}
+   ],
+   "faq": [{"q": "Quantas páginas tem o planner?", "a": "Até 92 páginas com todas as seções; dá pra tirar semanas, hábitos ou finanças e imprimir menos."}, {"q": "O planner 2027 é grátis?", "a": "A prévia é grátis. O PDF completo com o seu nome e sem a marca “PRÉVIA” custa R$14,90, pagamento único."}]},
+  {"slug": "planner-2027-personalizado",
+   "title": "Planner 2027 personalizado com nome na capa (PDF)",
+   "desc": "Planner 2027 personalizado com o seu nome e frase na capa, cor e estilo à escolha. Ótimo presente de Natal e amigo secreto: pronto em 1 minuto para imprimir.",
+   "h1": "Planner 2027 personalizado",
+   "intro": "Planner personalizado de papelaria custa caro e demora pra chegar. O PDF personalizado sai na hora, com o nome na capa, e você imprime do jeito que quiser.",
+   "blocos": [
+    {"h2": "O que dá pra personalizar", "lista": ["Nome na capa", "Frase ou lema do ano", "Estilo da capa: floral, geométrico ou minimalista", "Cor principal (verde, rosa, azul, roxo, laranja, grafite, mostarda)", "Quais seções entram: semanas, hábitos, finanças"]},
+    {"h2": "Como presente", "p": ["Pra dar de presente no Natal ou no amigo secreto, imprima em papel 90 g, encaderne com espiral e capa transparente, e embrulhe junto com uma caneta bonita. Fica um presente de até R$40 com cara de loja."]}
+   ],
+   "faq": [{"q": "Posso fazer um planner pra cada pessoa da família?", "a": "O pagamento libera o planner neste aparelho; você troca o nome da capa e imprime um pra cada pessoa."}]},
+  {"slug": "metas-para-2027",
+   "title": "Metas para 2027: como definir metas que você cumpre (com exemplos)",
+   "desc": "Como definir metas para 2027 por área da vida, com exemplos práticos, o método de metas pequenas e revisões mensais no planner.",
+   "h1": "Metas para 2027",
+   "intro": "A maioria das metas de Ano-Novo morre em fevereiro porque é grande demais e ninguém olha pra ela de novo. O truque é escrever pouco, de forma concreta, e revisar todo mês.",
+   "blocos": [
+    {"h2": "O método em 4 passos", "ol": ["Escolha <strong>no máximo 3 áreas</strong> pra focar no ano.", "Transforme cada desejo numa meta mensurável: “ler mais” vira “ler 12 livros”.", "Quebre por mês: 12 livros = 1 por mês.", "No fim de cada mês, revise na página mensal do planner e ajuste."]},
+    {"h2": "Exemplos por área", "lista": ["<strong>Saúde:</strong> caminhar 30 min, 4 vezes por semana.", "<strong>Dinheiro:</strong> guardar 10% de cada salário; quitar o cartão até junho.", "<strong>Trabalho:</strong> terminar um curso até agosto.", "<strong>Estudos:</strong> estudar inglês 20 minutos por dia.", "<strong>Família:</strong> um passeio por mês com os filhos.", "<strong>Eu comigo:</strong> uma noite por semana sem celular."]}
+   ],
+   "faq": [{"q": "Quantas metas ter para o ano?", "a": "Entre 3 e 6. Mais que isso dilui a atenção e nenhuma avança."}]},
+  {"slug": "controle-de-habitos-para-imprimir",
+   "title": "Controle de hábitos para imprimir (habit tracker mensal 2027)",
+   "desc": "Habit tracker mensal para imprimir: 10 hábitos × 31 dias por mês, dentro do planner 2027. Como escolher os hábitos e manter a sequência.",
+   "h1": "Controle de hábitos para imprimir",
+   "intro": "O controle de hábitos é a página mais simples do planner e a que mais funciona: pintar o quadradinho todo dia cria a vontade de não quebrar a sequência.",
+   "blocos": [
+    {"h2": "Como usar", "ol": ["Escreva até 10 hábitos na coluna da esquerda no começo do mês.", "Pinte o quadradinho do dia sempre que cumprir.", "No fim do mês, veja quais sequências quebraram e por quê — é aí que você ajusta."]},
+    {"h2": "Ideias de hábitos", "lista": ["Beber 2 litros de água", "Dormir antes das 23h", "Ler 10 páginas", "Exercício", "Anotar os gastos do dia", "Sem redes sociais depois das 21h", "Arrumar a cama", "Estudar 20 minutos"]}
+   ],
+   "faq": [{"q": "Quantos hábitos acompanhar ao mesmo tempo?", "a": "Comece com 3 a 5. A página tem espaço pra 10, mas poucos hábitos bem feitos rendem mais."}]},
+  {"slug": "planejamento-financeiro-mensal",
+   "title": "Planejamento financeiro mensal para imprimir (folha do planner 2027)",
+   "desc": "Folha de planejamento financeiro mensal para imprimir: entradas, contas fixas, gastos variáveis e quanto sobrou. Como usar em 10 minutos por mês.",
+   "h1": "Planejamento financeiro mensal",
+   "intro": "Controlar dinheiro no papel parece antiquado, mas funciona justamente porque obriga a olhar número por número. Uma folha por mês basta.",
+   "blocos": [
+    {"h2": "Como preencher em 10 minutos", "ol": ["<strong>Entradas:</strong> salário, extras, tudo que entra no mês.", "<strong>Contas fixas:</strong> aluguel, luz, internet, escola, parcelas.", "<strong>Gastos variáveis:</strong> mercado, delivery, transporte, lazer — anote no fim de cada semana.", "<strong>Sobrou/guardei:</strong> entradas menos todo o resto. Se deu negativo, é o primeiro sinal pra cortar no mês seguinte."]},
+    {"h2": "A regra mais simples que existe", "p": ["Guarde primeiro, gaste depois: no dia do pagamento, separe um valor fixo (mesmo pequeno) antes de pagar qualquer outra coisa. Anote na folha como a primeira “conta fixa” do mês."]}
+   ],
+   "faq": [{"q": "É melhor planilha no computador ou papel?", "a": "Papel é melhor pra quem nunca manteve controle: é mais rápido e fica à vista. Planilha é melhor pra quem quer gráfico e histórico de vários anos."}]}
+ ]
+}

@@ -9,7 +9,11 @@ APPS = [("murai-repo", "murai", "Muraí — mural de recados coletivo", "Junte o
         ("cha-de-panela", "cha-de-panela", "Kit do Chá — brincadeiras de chá de panela personalizadas", "Bingo com cartelas únicas, quem conhece a noiva, stop e prendas com o nome do casal, prontos pra imprimir."),
         ("bodas", "bodas", "Bodas — calculadora e quadro de bodas", "Descubra as bodas do casal pela data e monte um quadro de bodas pra imprimir."),
         ("sintonia", "sintonia", "Sintonia — teste de compatibilidade de casal", "Cada um responde no seu celular, sem ver o outro, e o casal descobre a % de sintonia."),
-        ("root-site/bingo-de-natal", "bingo-de-natal", "Bingo de Natal — Bingo de Natal: cartelas únicas para imprimir (PDF)", "Gere cartelas de bingo de Natal únicas, com figuras e o nome de cada jogador, prontas para imprimir. Prévia grátis e sorteador na tela.")]
+        ("root-site/bingo-de-natal", "bingo-de-natal", "Bingo de Natal — Bingo de Natal: cartelas únicas para imprimir (PDF)", "Gere cartelas de bingo de Natal únicas, com figuras e o nome de cada jogador, prontas para imprimir. Prévia grátis e sorteador na tela."),
+        ("root-site/amigo-secreto", "amigo-secreto", "Amigo Secreto — sorteio online grátis pelo WhatsApp", "Sorteio de amigo secreto online grátis, sem cadastro: cada um recebe o seu link e vê só quem tirou. Restrições (casal não se tira) e lista de desejos."),
+        ("root-site/calendario-2027", "calendario-2027", "Calendário 2027 — Calendário 2027 personalizado (PDF sem marca)", "Calendário 2027 personalizado para imprimir: com fotos, nome, aniversários e todos os feriados nacionais de 2027. Mensal ou anual, pronto em 1 minuto."),
+        ("root-site/certificado-abc", "certificado-abc", "Certificado ABC — Certificados da turma inteira (PDF sem marca)", "Certificado de formatura infantil e do ABC para imprimir: a professora cola os nomes da turma e sai um certificado para cada aluno, pronto em 1 minuto."),
+        ("root-site/planner-2027", "planner-2027", "Planner 2027 — Planner 2027 personalizado (PDF sem marca)", "Planner 2027 personalizado para imprimir: capa com seu nome, metas, visão anual, 12 meses com feriados, hábitos, finanças e páginas semanais.")]
 BASE = "https://giogas-pm.github.io/"
 def title_of(repo, url):
     rel = url.replace(BASE, "").split("/", 1)[1] if "/" in url.replace(BASE, "") else ""

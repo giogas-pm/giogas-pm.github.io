@@ -8,3 +8,7 @@ Sitemap: https://giogas-pm.github.io/cha-de-panela/sitemap.xml
 Sitemap: https://giogas-pm.github.io/bodas/sitemap.xml
 Sitemap: https://giogas-pm.github.io/sintonia/sitemap.xml
 Sitemap: https://giogas-pm.github.io/bingo-de-natal/sitemap.xml
+Sitemap: https://giogas-pm.github.io/amigo-secreto/sitemap.xml
+Sitemap: https://giogas-pm.github.io/calendario-2027/sitemap.xml
+Sitemap: https://giogas-pm.github.io/certificado-abc/sitemap.xml
+Sitemap: https://giogas-pm.github.io/planner-2027/sitemap.xml
