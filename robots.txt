@@ -6,3 +6,4 @@ Sitemap: https://giogas-pm.github.io/revele/sitemap.xml
 Sitemap: https://giogas-pm.github.io/album/sitemap.xml
 Sitemap: https://giogas-pm.github.io/cha-de-panela/sitemap.xml
 Sitemap: https://giogas-pm.github.io/bodas/sitemap.xml
+Sitemap: https://giogas-pm.github.io/sintonia/sitemap.xml
