@@ -13,3 +13,8 @@ Sitemap: https://giogas-pm.github.io/calendario-2027/sitemap.xml
 Sitemap: https://giogas-pm.github.io/certificado-abc/sitemap.xml
 Sitemap: https://giogas-pm.github.io/planner-2027/sitemap.xml
 Sitemap: https://giogas-pm.github.io/planilhas/sitemap.xml
+Sitemap: https://giogas-pm.github.io/idade-do-pet/sitemap.xml
+Sitemap: https://giogas-pm.github.io/etiquetas-escolares/sitemap.xml
+Sitemap: https://giogas-pm.github.io/fraldas-do-cha/sitemap.xml
+Sitemap: https://giogas-pm.github.io/tempo-de-namoro/sitemap.xml
+Sitemap: https://giogas-pm.github.io/precificacao-de-doces/sitemap.xml

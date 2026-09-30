@@ -1,0 +1,41 @@
+/* tj.css v1 — base mobile-first da fábrica. Cada app define --c (cor principal), --c2 (acento), --bg, --ink. */
+:root{--c:#b3261e;--c2:#1f6f4a;--gold:#d9a441;--bg:#fbf5ea;--card:#fff;--ink:#2b1d14;--muted:#7a6a5c;--line:#eadcc6;--r:18px;
+  --fd:'Fraunces',Georgia,'Times New Roman',serif;--fb:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--fb);overflow-x:hidden}
+a{color:var(--c)}img{max-width:100%}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+.top{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;max-width:760px;margin:0 auto}
+.brand{font:700 15px var(--fb);letter-spacing:.02em;color:var(--ink);text-decoration:none}.brand b{color:var(--c)}
+.hero{padding:10px 0 8px}
+h1,h2,h3{font-family:var(--fd);line-height:1.15;margin:.2em 0 .45em;letter-spacing:-.01em}
+h1{font-size:clamp(30px,8vw,46px)}h2{font-size:clamp(22px,5.4vw,30px);margin-top:1.4em}h3{font-size:19px}
+.lead{font-size:18px;color:var(--muted);margin:0 0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;box-shadow:0 1px 0 rgba(0,0,0,.03),0 10px 30px -18px rgba(60,30,10,.35)}
+.field{display:block;margin:0 0 14px}.field>span{display:block;font-weight:600;font-size:14px;margin-bottom:6px}
+.field input,.field textarea,.field select{width:100%;font:16px var(--fb);padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:#fffdf8;color:var(--ink)}
+.field textarea{min-height:92px;resize:vertical}
+.field input:focus,.field textarea:focus,.field select:focus{outline:none;border-color:var(--c);box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 18%,transparent)}
+.hint{font-size:13px;color:var(--muted);margin-top:5px}
+.seg{display:flex;flex-wrap:wrap;gap:8px}.seg button{flex:1 1 auto;min-width:84px;font:600 14px var(--fb);padding:10px 12px;border-radius:12px;border:1.5px solid var(--line);background:#fffdf8;color:var(--ink);cursor:pointer}
+.seg button.on{border-color:var(--c);background:color-mix(in srgb,var(--c) 10%,#fff);color:var(--c)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:700 16px var(--fb);padding:14px 20px;border-radius:14px;border:0;cursor:pointer;text-decoration:none;transition:transform .08s ease}
+.btn:active{transform:scale(.98)}.btn-pri{background:var(--c);color:#fff;box-shadow:0 8px 20px -10px var(--c)}.btn-sec{background:#fff;color:var(--ink);border:1.5px solid var(--line)}
+.btn-ok{background:var(--c2);color:#fff}.w100{width:100%}
+.row{display:flex;gap:10px;flex-wrap:wrap}.row>*{flex:1 1 160px}
+.price{font-size:13px;color:var(--muted);text-align:center;margin:8px 0 0}
+.pay{border:2px solid var(--gold);background:linear-gradient(180deg,#fffaf0,#fff)}
+.pay ul{margin:8px 0 14px;padding-left:20px}.pay li{margin:4px 0}
+.badge{display:inline-block;font:700 12px var(--fb);letter-spacing:.04em;text-transform:uppercase;color:var(--c2);background:color-mix(in srgb,var(--c2) 12%,#fff);padding:4px 10px;border-radius:99px}
+details{border-bottom:1px solid var(--line);padding:12px 0}summary{font-weight:700;cursor:pointer}details p{margin:8px 0 0;color:#4a3b30}
+.prose p,.prose li{font-size:17px}.prose ul,.prose ol{padding-left:22px}
+.cta{margin:26px 0;text-align:center}.cta .card{padding:22px}
+.crumbs{font-size:13px;color:var(--muted);margin:4px 0 6px}.crumbs a{color:var(--muted)}
+.links{display:grid;grid-template-columns:1fr;gap:8px;padding:0;list-style:none}.links a{display:block;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:#fff;text-decoration:none;color:var(--ink);font-weight:600}
+@media(min-width:620px){.links{grid-template-columns:1fr 1fr}}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:34px 16px 46px}footer a{color:inherit}
+footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 14px;margin-bottom:12px}
+.tj-toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,30px);opacity:0;max-width:min(92vw,460px);background:#2b1d14;color:#fff;padding:12px 16px;border-radius:14px;font-size:15px;transition:.25s;z-index:99;pointer-events:none}
+.tj-toast.on{opacity:1;transform:translate(-50%,0)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media print{.noprint{display:none!important}body{background:#fff}}

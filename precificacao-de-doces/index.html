@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<script>/*tj-track v1: padrao de medicao - filtra teste/robo, sessao, origem, engajamento*/(function(T){try{var q=new URLSearchParams(location.search),ls=localStorage,ss=sessionStorage,ua=navigator.userAgent||'';if(q.get('qa')==='1')ls.setItem('tj_team','1');if(q.get('qa')==='0')ls.removeItem('tj_team');var skip=!!navigator.webdriver||/headless|bot|crawl|spider|lighthouse|inspectiontool|facebookexternalhit|pinterest\/|slurp|python|curl|wget|playwright|puppeteer|phantom/i.test(ua)||ls.getItem('tj_team')==='1'||location.protocol==='file:'||/^(localhost|127\.)/.test(location.hostname);var sid=ss.getItem('tj_sid');if(!sid){sid=Math.random().toString(36).slice(2,10);ss.setItem('tj_sid',sid)}var nv=!ls.getItem('tj_vid');if(nv)ls.setItem('tj_vid','1');var r='';try{var h=new URL(document.referrer).hostname;if(h!==location.hostname)r=h}catch(_){}var src=q.get('src')||q.get('utm_source')||'';var dev=/mobi|android|iphone/i.test(ua)?'m':'d';var U,H,A,of=window.fetch;window.fetch=function(u,o){try{if(typeof u==='string'&&u.indexOf('/rest/v1/'+T)>-1&&o&&o.method==='POST'){if(skip)return Promise.resolve(new Response(null,{status:201}));U=u;H=o.headers;var b=JSON.parse(o.body);if(b&&!Array.isArray(b)){if(b.app)A=b.app;b.meta=Object.assign({},b.meta||{},{sid:sid});if(b.evento==='visit'||b.evento==='seo_land'){b.meta.ref=r;b.meta.nv=nv;b.meta.dev=dev;if(src&&!b.meta.src)b.meta.src=src}o=Object.assign({},o,{body:JSON.stringify(b)})}}}catch(_){}return of.apply(this,[u,o])};var eg=function(){if(skip||!U||ss.getItem('tj_eg'))return;ss.setItem('tj_eg','1');['pointerdown','keydown','scroll'].forEach(function(e){removeEventListener(e,eg,true)});try{of(U,{method:'POST',headers:H,body:JSON.stringify(A?{app:A,evento:'engaged',meta:{sid:sid}}:{evento:'engaged',meta:{sid:sid}})})}catch(_){}};['pointerdown','keydown','scroll'].forEach(function(e){addEventListener(e,eg,{capture:true,passive:true})})}catch(_){}})('tj_eventos');</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Precificação de doces: calculadora de preço de brigadeiro, bolo e doces</title>
+<meta name="description" content="Calculadora de precificação de doces: custo dos ingredientes, embalagem, gás e mão de obra, margem e preço por unidade de brigadeiro, bolo de pote e mais.">
+<link rel="canonical" href="https://giogas-pm.github.io/precificacao-de-doces/">
+<meta property="og:type" content="website"><meta property="og:title" content="Precificação de doces: calculadora de preço de brigadeiro, bolo e doces"><meta property="og:description" content="Calculadora de precificação de doces: custo dos ingredientes, embalagem, gás e mão de obra, margem e preço por unidade de brigadeiro, bolo de pote e mais.">
+<meta property="og:url" content="https://giogas-pm.github.io/precificacao-de-doces/"><meta property="og:image" content="https://giogas-pm.github.io/precificacao-de-doces/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧁</text></svg>">
+<meta name="theme-color" content="#8a4b2a">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tj.css">
+<style>:root{--c:#8a4b2a}
+/* APP:CSS */
+:root{--c2:#2f7d4f;--gold:#e0a96d;--bg:#fbf5ef;--line:#ecdccd}
+[hidden]{display:none!important}
+.ihead{display:grid;grid-template-columns:1fr 1fr 1fr 34px;gap:6px;font-size:11.5px;color:var(--muted);margin:2px 0 4px;padding:0 2px}.ihead:after{content:""}
+.ing{display:grid;grid-template-columns:1fr 1fr 1fr 34px;gap:6px;margin:0 0 10px;padding:0 0 10px;border-bottom:1px dashed var(--line)}
+.ing input{width:100%;font:15px var(--fb);padding:9px 8px;border:1.5px solid var(--line);border-radius:10px;background:#fffdf8;color:var(--ink);min-width:0}
+.ing .nm{grid-column:1/4}.ing .x{grid-row:1;grid-column:4;border:0;background:none;font-size:20px;color:var(--muted);cursor:pointer}
+.ing .cu{grid-column:4;align-self:center;font-size:11px;color:var(--muted);text-align:right;white-space:nowrap}
+.resul{text-align:center;margin:18px 0;background:linear-gradient(180deg,#fff,#fff6ec)}
+.rk{margin:0;color:var(--muted);font-weight:600}
+.rbig{margin:4px 0 12px;font-family:var(--fd);line-height:1}.rbig b{font-size:clamp(52px,16vw,78px);color:var(--c)}
+.rgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 12px}.rgrid div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px}
+.rgrid b{display:block;font:800 21px var(--fd)}.rgrid span{font-size:12.5px;color:var(--muted)}
+.barra{display:flex;height:14px;border-radius:99px;overflow:hidden;margin:6px 0 6px}.barra i{display:block;height:100%}
+.xsell{font-size:15px;background:#fff;border:1px dashed var(--line);border-radius:12px;padding:12px 14px;margin-top:18px}
+.pgs{display:grid;gap:14px;margin:14px 0 18px}
+.pg{position:relative;overflow:hidden;background:#fff;aspect-ratio:210/297;container-type:inline-size;box-shadow:0 12px 34px -16px rgba(90,40,10,.45);border-radius:4px;color:#2b1d14}
+.pg .in{position:absolute;inset:7cqw 7cqw 6cqw;display:flex;flex-direction:column}
+.pg .in>*{flex-shrink:0}
+.pg .ey{font:700 2.4cqw var(--fb);letter-spacing:.3em;text-transform:uppercase;color:var(--c)}
+.pg h3{font:800 7cqw/1.05 var(--fd);margin:1.5cqw 0 1cqw}.pg .sb{font-size:2.8cqw;color:#7a6a5c;margin-bottom:4cqw}
+.pg table{width:100%;border-collapse:collapse;font-size:2.6cqw}.pg th{text-align:left;font-size:2.1cqw;letter-spacing:.1em;text-transform:uppercase;color:#7a6a5c;border-bottom:.35cqw solid var(--c);padding:1.2cqw .8cqw}
+.pg td{padding:1.2cqw .8cqw;border-bottom:.2cqw solid #eee3d6}.pg td.n,.pg th.n{text-align:right;font-variant-numeric:tabular-nums}
+.pg .tot td{font-weight:800;border-bottom:0}.pg .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:2cqw;margin:4cqw 0 0}
+.pg .kpis div{background:#fbf5ef;border-radius:1.6cqw;padding:2.4cqw}.pg .kpis b{display:block;font:800 4.6cqw var(--fd);color:var(--c)}.pg .kpis span{font-size:2.1cqw;color:#7a6a5c;text-transform:uppercase;letter-spacing:.08em}
+.pg .rp{margin-top:auto;font-size:2cqw;color:#9a8a7c;border-top:.2cqw solid #eee3d6;padding-top:2cqw}
+.pg.tab{background:linear-gradient(180deg,#fff7ee,#fff 40%)}.pg.tab .in{align-items:center;text-align:center}
+.pg.tab .lg{width:18cqw;height:18cqw;border-radius:50%;background:var(--c);color:#fff;display:flex;align-items:center;justify-content:center;font-size:9cqw;margin:2cqw 0 3cqw}
+.pg.tab h3{font-size:8.5cqw}.pg.tab table{font-size:3.6cqw;margin-top:4cqw;width:80%}.pg.tab td{padding:2.4cqw 1cqw}.pg.tab td:first-child{text-align:left}
+.pg.tab .ct2{margin-top:auto;font:700 3.4cqw var(--fb);color:var(--c)}.pg.tab .ob{font-size:2.5cqw;color:#7a6a5c;margin-top:2cqw}
+.wm{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:3}
+.wm span{font:800 17cqw var(--fb);letter-spacing:.1em;color:rgba(138,75,42,.18);transform:rotate(-28deg);white-space:nowrap}
+.unlocked .wm{display:none}
+@media print{@page{size:A4 portrait;margin:0}body{background:#fff}.wrap{max-width:none;padding:0}main>*:not(#res){display:none!important}
+ .pgs{margin:0;display:block}.pg{width:210mm;height:297mm;aspect-ratio:auto;box-shadow:none;border-radius:0;break-after:page;page-break-after:always}
+ *{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+/* APP:CSS:FIM */
+</style>
+</head>
+<body>
+<header class="top noprint"><a class="brand" href="./">Precificação de Doces</a><span class="badge">grátis</span></header>
+<main class="wrap">
+<section class="hero noprint"><h1>Quanto cobrar pelo seu doce?</h1><p class="lead">Coloque os ingredientes da receita, quanto rende e seu tempo — a calculadora mostra o custo por unidade e o preço de venda com lucro.</p></section>
+<!-- APP:INICIO -->
+<section class="card noprint" aria-label="Calcular o preço do doce">
+  <div class="row"><label class="field"><span>O que você vai precificar?</span><select id="fModelo"><option value="brigadeiro">Brigadeiro gourmet</option><option value="pote">Bolo de pote</option><option value="brownie">Brownie</option><option value="bolo">Bolo recheado (por kg)</option><option value="outro">Outra receita (em branco)</option></select></label>
+  <label class="field"><span>Nome do produto</span><input id="fProd" maxlength="40" placeholder="Brigadeiro gourmet"></label></div>
+  <div class="field"><span>Ingredientes da receita</span>
+    <div class="ihead" aria-hidden="true"><span>Pago (R$)</span><span>Embalagem (g/ml/un)</span><span>Uso na receita</span></div>
+    <div id="ings"></div>
+    <button type="button" class="btn btn-sec w100" id="btnAdd" style="font-size:15px;padding:10px">+ ingrediente</button>
+    <p class="hint">Ex.: leite condensado pago R$7,49 na lata de 395 g e usado 395 g. Use a mesma unidade na embalagem e no uso.</p></div>
+  <div class="row"><label class="field"><span id="lRend">Rende (unidades)</span><input id="fRend" type="number" inputmode="decimal" min="1" placeholder="30"></label><label class="field"><span>Embalagem por unidade (R$)</span><input id="fEmb" type="number" inputmode="decimal" step="0.01" min="0" placeholder="0,10"><span class="hint">forminha, pote, caixinha, adesivo</span></label></div>
+  <div class="row"><label class="field"><span>Seu tempo na receita (horas)</span><input id="fHoras" type="number" inputmode="decimal" step="0.25" min="0" placeholder="1,5"></label><label class="field"><span>Valor da sua hora (R$)</span><input id="fValHora" type="number" inputmode="decimal" min="0" placeholder="20"></label></div>
+  <div class="row"><label class="field"><span>Gás, luz e água (% do custo)</span><input id="fFixo" type="number" inputmode="decimal" min="0" max="100" placeholder="10"></label><label class="field"><span>Margem de lucro (%)</span><input id="fMargem" type="number" inputmode="decimal" min="0" max="500" placeholder="60"></label></div>
+  <label class="field"><span>Taxa de venda (%) <small style="font-weight:400">— maquininha, app de entrega (opcional)</small></span><input id="fTaxa" type="number" inputmode="decimal" min="0" max="40" placeholder="0"></label>
+  <button class="btn btn-pri w100" id="btnCalc">Calcular o preço</button>
+</section>
+<section id="res" hidden>
+  <div class="card resul noprint" aria-live="polite">
+    <p class="rk" id="rTopo">Preço sugerido por unidade</p>
+    <p class="rbig"><b id="rPreco">R$ 0</b></p>
+    <div class="rgrid"><div><b id="rCusto">–</b><span>custo por unidade</span></div><div><b id="rLucro">–</b><span>lucro por unidade</span></div><div><b id="rCento">–</b><span id="rCentoL">o cento</span></div><div><b id="rReceita">–</b><span>lucro por receita</span></div></div>
+    <div class="barra" id="rBarra" aria-hidden="true"></div>
+    <p class="hint" id="rLeg"></p>
+    <p class="hint" id="rAlerta"></p>
+  </div>
+  <h2 class="noprint">Ficha técnica + tabela de preços 📄</h2>
+  <p class="hint noprint">Duas páginas prontas: a ficha técnica (pra você não perder a conta) e a tabela de preços com o nome do seu ateliê, pra mandar pros clientes.</p>
+  <div class="card noprint"><div class="row"><label class="field"><span>Nome do ateliê / confeitaria</span><input id="fAtelie" maxlength="40" placeholder="Doces da Ju"></label><label class="field"><span>WhatsApp / Instagram <small style="font-weight:400">(opcional)</small></span><input id="fContato" maxlength="40" placeholder="@docesdaju"></label></div></div>
+  <div class="pgs" id="prev" data-qa="preview"></div>
+  <div class="card pay noprint" id="zPay" data-qa="paywall">
+    <h3 style="margin-top:0">PDF sem a marca “PRÉVIA”</h3>
+    <ul><li>Ficha técnica com o custo de cada ingrediente, rendimento e margem</li><li>Tabela de preços por unidade, meia dúzia, dúzia, 25, 50 e cento, com o nome do seu ateliê</li><li>Mudou o preço do leite condensado? Edita e gera de novo, sem pagar outra vez</li></ul>
+    <button class="btn btn-pri w100" id="btnPay" data-qa="comprar">🧁 Liberar o PDF — R$12,90</button>
+    <p class="price">Pagamento único pelo Mercado Pago (Pix ou cartão). Se paga na primeira encomenda cobrada do jeito certo.</p>
+  </div>
+  <div class="card noprint" id="zPago" hidden><h3 style="margin-top:0">Liberado 🎉</h3><p>Imprima ou salve em PDF (no celular: Compartilhar → Imprimir → Salvar como PDF). A4, retrato, 2 páginas.</p><button class="btn btn-ok w100" id="btnPrint">🖨️ Imprimir / salvar PDF</button></div>
+  <p class="xsell noprint">📊 Tem várias receitas? A <a href="../planilhas/confeitaria/?src=precificacao-de-doces">planilha de precificação para confeitaria</a> calcula todas as suas receitas num lugar só (Excel e Google Planilhas) · <a href="../planilhas/?src=precificacao-de-doces">ver todas as planilhas</a></p>
+</section>
+<section class="noprint prose" style="margin-top:30px">
+  <h2>Como a calculadora chega no preço</h2>
+  <ol><li><b>Custo dos ingredientes</b>: preço pago ÷ tamanho da embalagem × quanto a receita usa.</li><li><b>+ gás, luz e água</b> (padrão 10% dos ingredientes).</li><li><b>+ sua mão de obra</b>: horas × valor da hora.</li><li>Divide pelo rendimento e soma a <b>embalagem</b> de cada unidade = custo por unidade.</li><li><b>Preço</b> = custo × (1 + margem) e, se tiver, ajusta pela taxa de venda (maquininha/app).</li></ol>
+  <h2>Perguntas frequentes</h2>
+  <details><summary>Qual margem de lucro usar em doces?</summary><p>Confeiteiras costumam trabalhar entre 50% e 100% sobre o custo (já com a mão de obra paga). Doce gourmet e encomenda personalizada aguentam margens maiores; doce de revenda, menores.</p></details>
+  <details><summary>Preciso cobrar minha hora se já coloquei lucro?</summary><p>Sim. A hora paga o seu trabalho; o lucro é o que sobra pro negócio crescer (equipamento, férias, imprevistos). Sem isso você trabalha de graça.</p></details>
+  <details><summary>Meus dados vão pra algum servidor?</summary><p>Não. Receita e preços ficam só no seu aparelho.</p></details>
+</section>
+<!-- APP:FIM -->
+</main>
+<footer class="noprint"><nav aria-label="Guias"><a href="como-precificar-doces/">Como precificar doces sem trabalhar de graça</a><a href="preco-de-brigadeiro-gourmet/">Quanto cobrar por brigadeiro gourmet</a><a href="preco-de-bolo-de-pote/">Quanto cobrar pelo bolo de pote</a><a href="quanto-cobrar-por-kg-de-bolo/">Quanto cobrar pelo quilo de bolo</a><a href="margem-de-lucro-confeitaria/">Margem de lucro na confeitaria</a><a href="ficha-tecnica-de-doces/">Ficha técnica de doces e bolos</a><a href="https://giogas-pm.github.io/planilhas/confeitaria/">Planilha de precificação para confeitaria</a><a href="https://giogas-pm.github.io/planilhas/">Planilhas prontas</a><a href="https://giogas-pm.github.io/">Outros apps do Fica Pronto</a></nav><p>Precificação de Doces · feito no Brasil por <a href="https://giogas-pm.github.io/">Fica Pronto</a> · seus dados ficam no seu aparelho</p></footer>
+<script src="tj.js"></script>
+<script>TJ.init({app:'precificacao-de-doces',produto:'padrao'});TJ.track('visit');</script>
+<script src="doces.js"></script>
+</body></html>

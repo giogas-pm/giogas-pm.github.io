@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<script>/*tj-track v1: padrao de medicao - filtra teste/robo, sessao, origem, engajamento*/(function(T){try{var q=new URLSearchParams(location.search),ls=localStorage,ss=sessionStorage,ua=navigator.userAgent||'';if(q.get('qa')==='1')ls.setItem('tj_team','1');if(q.get('qa')==='0')ls.removeItem('tj_team');var skip=!!navigator.webdriver||/headless|bot|crawl|spider|lighthouse|inspectiontool|facebookexternalhit|pinterest\/|slurp|python|curl|wget|playwright|puppeteer|phantom/i.test(ua)||ls.getItem('tj_team')==='1'||location.protocol==='file:'||/^(localhost|127\.)/.test(location.hostname);var sid=ss.getItem('tj_sid');if(!sid){sid=Math.random().toString(36).slice(2,10);ss.setItem('tj_sid',sid)}var nv=!ls.getItem('tj_vid');if(nv)ls.setItem('tj_vid','1');var r='';try{var h=new URL(document.referrer).hostname;if(h!==location.hostname)r=h}catch(_){}var src=q.get('src')||q.get('utm_source')||'';var dev=/mobi|android|iphone/i.test(ua)?'m':'d';var U,H,A,of=window.fetch;window.fetch=function(u,o){try{if(typeof u==='string'&&u.indexOf('/rest/v1/'+T)>-1&&o&&o.method==='POST'){if(skip)return Promise.resolve(new Response(null,{status:201}));U=u;H=o.headers;var b=JSON.parse(o.body);if(b&&!Array.isArray(b)){if(b.app)A=b.app;b.meta=Object.assign({},b.meta||{},{sid:sid});if(b.evento==='visit'||b.evento==='seo_land'){b.meta.ref=r;b.meta.nv=nv;b.meta.dev=dev;if(src&&!b.meta.src)b.meta.src=src}o=Object.assign({},o,{body:JSON.stringify(b)})}}}catch(_){}return of.apply(this,[u,o])};var eg=function(){if(skip||!U||ss.getItem('tj_eg'))return;ss.setItem('tj_eg','1');['pointerdown','keydown','scroll'].forEach(function(e){removeEventListener(e,eg,true)});try{of(U,{method:'POST',headers:H,body:JSON.stringify(A?{app:A,evento:'engaged',meta:{sid:sid}}:{evento:'engaged',meta:{sid:sid}})})}catch(_){}};['pointerdown','keydown','scroll'].forEach(function(e){addEventListener(e,eg,{capture:true,passive:true})})}catch(_){}})('tj_eventos');</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Etiquetas escolares personalizadas para imprimir (nome, turma e tema)</title>
+<meta name="description" content="Etiquetas escolares com o nome da criança para cadernos, lápis, estojo e garrafinha: monte em 1 minuto e imprima em A4 ou papel adesivo.">
+<link rel="canonical" href="https://giogas-pm.github.io/etiquetas-escolares/">
+<meta property="og:type" content="website"><meta property="og:title" content="Etiquetas escolares personalizadas para imprimir (nome, turma e tema)"><meta property="og:description" content="Etiquetas escolares com o nome da criança para cadernos, lápis, estojo e garrafinha: monte em 1 minuto e imprima em A4 ou papel adesivo.">
+<meta property="og:url" content="https://giogas-pm.github.io/etiquetas-escolares/"><meta property="og:image" content="https://giogas-pm.github.io/etiquetas-escolares/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✏️</text></svg>">
+<meta name="theme-color" content="#2563eb">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tj.css">
+<style>:root{--c:#2563eb}
+/* APP:CSS */
+:root{--c2:#16a34a;--gold:#d9a441}
+.chk{display:flex;gap:8px;align-items:center}.chk input{width:auto}.chk span{margin:0!important;font-weight:500!important}
+.temas button{min-width:96px}
+.folhaBox{margin:10px 0 18px}
+.fl{position:relative;overflow:hidden;background:#fff;aspect-ratio:210/297;container-type:inline-size;box-shadow:0 10px 30px -14px rgba(20,40,80,.45);border-radius:3px;--mm:calc(100cqw/210);font-family:'Baloo 2',system-ui,sans-serif}
+.fl .pg{position:absolute;left:calc(var(--mm)*10);top:calc(var(--mm)*12);width:calc(var(--mm)*190);display:flex;flex-direction:column;gap:calc(var(--mm)*5)}
+.fl .gr{display:grid;gap:calc(var(--mm)*3) calc(var(--mm)*5)}
+.fl .g1{grid-template-columns:repeat(2,calc(var(--mm)*92.5))}
+.fl .g2{grid-template-columns:repeat(3,calc(var(--mm)*60))}
+.fl .g3{grid-template-columns:repeat(6,calc(var(--mm)*28.33));justify-content:space-between}
+.fl .g4{grid-template-columns:repeat(5,calc(var(--mm)*35));column-gap:calc(var(--mm)*3.75);row-gap:calc(var(--mm)*2.5)}
+.et{position:relative;box-sizing:border-box;background:var(--bg);border-radius:calc(var(--mm)*3);display:flex;align-items:center;overflow:hidden;color:var(--tx);border:calc(var(--mm)*.6) solid var(--ac)}
+.corte .et{outline:calc(var(--mm)*.25) dashed #b8b8b8;outline-offset:calc(var(--mm)*1)}
+.et .em{line-height:1;flex:none}
+.et .tx{min-width:0;display:flex;flex-direction:column;justify-content:center}
+.et .nm{font-weight:800;line-height:1.02;white-space:nowrap;overflow:hidden;text-overflow:clip}
+.et .sb{font-weight:600;line-height:1.1;opacity:.85;white-space:nowrap;overflow:hidden}
+.e1{height:calc(var(--mm)*32);padding:0 calc(var(--mm)*4);gap:calc(var(--mm)*3)}.e1 .em{font-size:calc(var(--mm)*15)}.e1 .sb{font-size:calc(var(--mm)*4.4)}
+.e1 .lin{height:calc(var(--mm)*.6);background:var(--ac);opacity:.5;margin:calc(var(--mm)*1.2) 0;border-radius:2px}
+.e2{height:calc(var(--mm)*24);padding:0 calc(var(--mm)*3);gap:calc(var(--mm)*2)}.e2 .em{font-size:calc(var(--mm)*11)}.e2 .sb{font-size:calc(var(--mm)*3.4)}
+.e3{height:calc(var(--mm)*28.33);border-radius:50%;flex-direction:column;justify-content:center;text-align:center;padding:calc(var(--mm)*1.5)}.e3 .em{font-size:calc(var(--mm)*9)}.e3 .tx{align-items:center;max-width:100%}
+.e4{height:calc(var(--mm)*10);padding:0 calc(var(--mm)*1.6);gap:calc(var(--mm)*1.2);border-radius:calc(var(--mm)*5)}.e4 .em{font-size:calc(var(--mm)*5.5)}
+.fl .rod{position:absolute;left:0;right:0;bottom:calc(var(--mm)*5);text-align:center;font:600 calc(var(--mm)*2.8) system-ui,sans-serif;color:#9aa3af}
+.wm{position:absolute;inset:0;pointer-events:none;z-index:3;display:flex;flex-direction:column;justify-content:space-around;align-items:center}
+.wm span{font:800 16cqw system-ui,sans-serif;letter-spacing:.1em;color:rgba(37,99,235,.2);transform:rotate(-24deg);white-space:nowrap}
+.unlocked .wm{display:none}
+.printOnly{display:none}
+@media print{@page{size:A4 portrait;margin:0}body{background:#fff}.printOnly{display:block}.wrap{max-width:none;padding:0;margin:0}
+ .printOnly .fl{width:210mm;height:297mm;aspect-ratio:auto;box-shadow:none;border-radius:0;page-break-after:always;break-after:page}
+ .printOnly .fl .rod{display:none}
+ *{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+/* APP:CSS:FIM */
+</style>
+</head>
+<body>
+<header class="top noprint"><a class="brand" href="./">Etiquetas Escolares</a><span class="badge">prévia grátis</span></header>
+<main class="wrap">
+<section class="hero noprint"><h1>Etiquetas escolares com o nome da criança</h1><p class="lead">Monte o kit de etiquetas do material escolar em 1 minuto e imprima em papel adesivo ou folha A4 comum. Prévia grátis; a folha sem marca por R$14,90.</p></section>
+<!-- APP:INICIO -->
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">
+<section class="card noprint" aria-label="Montar as etiquetas">
+  <label class="field"><span>Nome da criança</span><input id="fNome" maxlength="40" placeholder="Maria Eduarda Lima" autocomplete="off"></label>
+  <div class="row"><label class="field"><span>Turma / série <small style="font-weight:400">(opcional)</small></span><input id="fTurma" maxlength="24" placeholder="1º ano B"></label><label class="field"><span>Escola <small style="font-weight:400">(opcional)</small></span><input id="fEscola" maxlength="40" placeholder="Colégio Monteiro Lobato"></label></div>
+  <div class="field"><span>Tema</span><div class="seg temas" role="group" id="temas"></div></div>
+  <label class="field chk"><input type="checkbox" id="fCorte" checked> <span>Linhas de corte (pra recortar com tesoura em papel comum)</span></label>
+  <button class="btn btn-pri w100" id="btnGerar">Montar etiquetas</button>
+</section>
+<section id="res" hidden>
+  <h2 class="noprint">Prévia da folha A4</h2><p class="hint noprint">48 etiquetas numa folha: 6 grandes (cadernos e livros), 6 médias (estojo, lancheira), 6 redondas (garrafinha, tampas) e 30 mini (lápis, canetas, borracha).</p>
+  <div class="folhaBox noprint" data-qa="preview"><div id="prev"></div></div>
+  <div class="card pay noprint" id="zPay" data-qa="paywall">
+    <h3 style="margin-top:0">Imprimir sem a marca “PRÉVIA”</h3>
+    <ul><li>Folha A4 com 48 etiquetas no tema escolhido</li><li>Imprima quantas folhas quiser (em casa ou na gráfica)</li><li>Papel adesivo A4 fosco ou vinil, ou sulfite + fita larga</li><li>Errou uma letra? Corrige e imprime de novo, sem pagar outra vez</li></ul>
+    <button class="btn btn-pri w100" id="btnPay" data-qa="comprar">✏️ Liberar as etiquetas — R$14,90</button>
+    <p class="price">Pagamento único pelo Mercado Pago: Pix ou cartão. Libera na hora, neste aparelho.</p>
+  </div>
+  <div class="card noprint" id="zPago" hidden><h3 style="margin-top:0">Liberado 🎉</h3><p>Imprima ou salve em PDF (no celular: Compartilhar → Imprimir → salvar PDF). Na impressora: papel <b>A4</b>, escala <b>100%</b> (“tamanho real”), sem ajustar à página.</p><button class="btn btn-ok w100" id="btnPrint">🖨️ Imprimir / salvar PDF</button></div>
+  <p class="noprint" style="text-align:center"><button class="btn btn-sec" id="btnShare">Mandar pra outra mãe da turma</button></p>
+</section>
+<section class="noprint prose" style="margin-top:30px">
+  <h2>Como fazer as etiquetas do material escolar</h2>
+  <ol><li>Digite o nome da criança (e, se quiser, a turma e a escola).</li><li>Escolha o tema: dinossauro, unicórnio, espaço, futebol e outros.</li><li>Confira a prévia grátis da folha A4.</li><li>Libere e imprima em papel adesivo — ou em sulfite e cole com fita larga transparente.</li></ol>
+  <h2>Perguntas frequentes</h2>
+  <details><summary>Qual papel adesivo comprar?</summary><p>Qualquer papel adesivo A4 “folha inteira” (fosco ou brilho) serve — é vendido em papelaria em pacotes de 10 a 20 folhas. Para garrafinha e lancheira, que molham, prefira vinil adesivo ou passe fita transparente por cima.</p></details>
+  <details><summary>Serve pra etiqueta Pimaco?</summary><p>A folha foi desenhada para papel adesivo inteiro, que você recorta. Etiquetas Pimaco já cortadas têm posições fixas e não batem com esse layout.</p></details>
+  <details><summary>Posso fazer para dois irmãos?</summary><p>Pode: depois de liberar, troque o nome e imprima outra folha neste aparelho.</p></details>
+  <details><summary>O nome da criança vai pra algum servidor?</summary><p>Não. As etiquetas são montadas no seu navegador e o nome fica só no seu aparelho.</p></details>
+</section>
+<div id="printArea" class="printOnly"></div>
+<!-- APP:FIM -->
+</main>
+<footer class="noprint"><nav aria-label="Guias"><a href="etiquetas-escolares-para-imprimir/">Etiquetas escolares para imprimir</a><a href="etiqueta-de-nome-para-lapis/">Etiqueta de nome para lápis e canetinha</a><a href="etiqueta-para-caderno/">Etiqueta para caderno escolar</a><a href="como-imprimir-etiqueta-em-papel-adesivo/">Como imprimir etiqueta em papel adesivo</a><a href="como-etiquetar-material-escolar/">Como etiquetar o material escolar</a><a href="etiqueta-escolar-tema-infantil/">Etiquetas escolares com tema infantil</a><a href="https://giogas-pm.github.io/certificado-abc/">Certificado ABC da turma</a><a href="https://giogas-pm.github.io/planner-2027/">Planner 2027 personalizado</a><a href="https://giogas-pm.github.io/">Outros apps prontos pra usar</a></nav><p>Etiquetas Escolares · feito no Brasil por <a href="https://giogas-pm.github.io/">Fica Pronto</a> · seus dados ficam no seu aparelho</p></footer>
+<script src="tj.js"></script>
+<script>TJ.init({app:'etiquetas-escolares',produto:'padrao'});TJ.track('visit');</script>
+<script src="etiquetas.js"></script>
+</body></html>

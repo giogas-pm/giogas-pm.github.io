@@ -1,0 +1,54 @@
+{"app": "etiquetas-escolares", "nome": "Etiquetas Escolares", "cor": "#2563eb", "emoji": "✏️",
+ "base": "https://giogas-pm.github.io/etiquetas-escolares/", "botao_curto": "Montar etiquetas",
+ "cta": {"titulo": "Monte as etiquetas com o nome agora", "texto": "Digite o nome, escolha o tema e veja a folha A4 com 48 etiquetas: cadernos, estojo, garrafinha e lápis. Prévia grátis; sem marca por R$14,90.", "botao": "✏️ Montar as etiquetas escolares"},
+ "irmaos": [{"url": "https://giogas-pm.github.io/certificado-abc/", "texto": "Certificado ABC da turma"}, {"url": "https://giogas-pm.github.io/planner-2027/", "texto": "Planner 2027 personalizado"}, {"url": "https://giogas-pm.github.io/", "texto": "Outros apps prontos pra usar"}],
+ "paginas": [
+  {"slug": "etiquetas-escolares-para-imprimir", "title": "Etiquetas escolares para imprimir com o nome da criança (A4)", "desc": "Etiquetas escolares para imprimir com nome, turma e escola: folha A4 com 48 etiquetas para cadernos, livros, estojo, garrafinha e lápis. Temas infantis.", "h1": "Etiquetas escolares para imprimir",
+   "intro": "Etiqueta pronta de papelaria custa caro e demora a chegar. Fazer no Word, trocando o nome em dezenas de caixinhas, leva uma noite. Aqui você digita o nome uma vez e a folha inteira sai pronta pra imprimir.",
+   "blocos": [
+    {"h2": "O que vem na folha A4", "lista": ["<strong>6 grandes</strong> (9 × 3 cm): cadernos, livros e pastas — com nome, turma e escola", "<strong>6 médias</strong> (6 × 2,4 cm): estojo, lancheira, agenda", "<strong>6 redondas</strong> (2,8 cm): garrafinha, pote, tampa", "<strong>30 mini</strong> (3,5 × 1 cm): lápis, canetinha, borracha, apontador, tesoura"]},
+    {"h2": "Passo a passo", "ol": ["Digite o nome da criança (turma e escola são opcionais).", "Escolha o tema: dinossauro, unicórnio, espaço, futebol, princesa, fundo do mar, bichinhos ou clássico.", "Confira a prévia grátis.", "Libere e imprima em papel adesivo A4, na escala 100%.", "Recorte seguindo as linhas pontilhadas."]},
+    {"h2": "Impressora de casa dá conta?", "p": ["Dá. Jato de tinta ou laser comum imprime bem em papel adesivo fosco. Se a impressora for só preto e branco, prefira o tema Clássico — os outros usam fundo colorido."]}
+   ],
+   "faq": [{"q": "Quanto custa?", "a": "A prévia é grátis. A folha sem a marca “PRÉVIA” custa R$14,90, pagamento único, e você imprime quantas vezes quiser neste aparelho."}, {"q": "Preciso instalar algum programa?", "a": "Não. Funciona no navegador do celular ou do computador."}, {"q": "Dá pra imprimir na papelaria?", "a": "Sim: salve em PDF e leve no pen drive ou mande pelo WhatsApp da papelaria, pedindo impressão em papel adesivo A4 em tamanho real."}]},
+  {"slug": "etiqueta-de-nome-para-lapis", "title": "Etiqueta de nome para lápis: tamanho certo e como colar", "desc": "Etiqueta de nome para lápis, canetinha e borracha: tamanho que fica bem (3,5 × 1 cm), como colar para não descolar e folha pronta para imprimir.", "h1": "Etiqueta de nome para lápis e canetinha",
+   "intro": "Lápis é o item que mais some da mochila — e o mais difícil de etiquetar, porque é fino e redondo. O segredo é a etiqueta mini, estreita e comprida, que dá a volta no lápis como uma bandeirinha ou fica deitada ao longo dele.",
+   "blocos": [
+    {"h2": "Tamanho ideal", "p": ["Entre 3 e 4 cm de comprimento e 1 cm de altura. Maior que isso, a etiqueta fica sobrando; menor, o nome não dá pra ler. Nomes compostos longos ficam melhor com o primeiro nome e o último sobrenome (“Maria Lima”)."]},
+    {"h2": "Dois jeitos de colar", "lista": ["<strong>Deitada:</strong> cole ao longo do corpo do lápis, perto da ponta de trás, que não é apontada.", "<strong>Bandeirinha:</strong> dobre a etiqueta ao redor do lápis, colando a parte adesiva nela mesma, e deixe a ponta com o nome para fora."]},
+    {"h2": "Pra durar o ano todo", "p": ["Passe uma volta de fita adesiva transparente por cima. Em canetinhas e marca-texto, cole na tampa e no corpo — a tampa costuma trocar de dono."]}
+   ],
+   "faq": [{"q": "Quantas etiquetas mini vêm na folha?", "a": "30 mini por folha A4, além de 18 maiores. Para um estojo completo com 24 lápis de cor, imprima duas folhas."}, {"q": "Existe etiqueta para lápis de cor pequeno?", "a": "Para lápis de cor curto, use a posição deitada, bem na ponta de trás."}]},
+  {"slug": "etiqueta-para-caderno", "title": "Etiqueta para caderno escolar: modelo com nome, turma e escola", "desc": "Etiqueta para caderno com nome da criança, turma e escola. Veja o que escrever, onde colar e imprima a folha com etiquetas grandes e mini.", "h1": "Etiqueta para caderno escolar",
+   "intro": "A etiqueta do caderno é a mais vista pela professora — e a que precisa de mais informação. Com nome, turma e escola, o caderno perdido volta pra mochila certa.",
+   "blocos": [
+    {"h2": "O que escrever", "lista": ["Nome completo da criança (ou nome e sobrenome)", "Turma ou série (ex.: 1º ano B)", "Nome da escola, se houver mais de uma unidade", "Opcional: a matéria do caderno, escrita à mão numa linha livre"]},
+    {"h2": "Onde colar", "p": ["No canto de cima da capa, à direita, onde a professora bate o olho ao recolher os cadernos. Se a capa for plastificada, a etiqueta adesiva gruda direto; em capa de papel, passe fita larga por cima."]},
+    {"h2": "Tamanho", "p": ["9 × 3 cm é o tamanho clássico: cabe o nome em letra grande e mais duas linhas. É o tamanho das etiquetas grandes da nossa folha."]}
+   ],
+   "faq": [{"q": "Precisa etiquetar os livros também?", "a": "Sim, livro didático é caro e costuma ser igual ao de todos da sala. Use a etiqueta grande na capa ou na contracapa."}, {"q": "Encapar antes ou depois de etiquetar?", "a": "Encape primeiro e cole a etiqueta por fora do plástico; assim ela fica visível e dá pra trocar no ano seguinte."}]},
+  {"slug": "como-imprimir-etiqueta-em-papel-adesivo", "title": "Como imprimir etiqueta em papel adesivo (sem sair torta)", "desc": "Como imprimir etiquetas escolares em papel adesivo A4: qual papel comprar, configuração da impressora, escala 100% e dicas para recortar e colar.", "h1": "Como imprimir etiqueta em papel adesivo",
+   "intro": "O erro mais comum é a impressora “ajustar à página” e encolher tudo. Com três ajustes simples, a etiqueta sai do tamanho certo e com a cor bonita.",
+   "blocos": [
+    {"h2": "Qual papel comprar", "lista": ["<strong>Papel adesivo A4 fosco</strong> (folha inteira): o mais barato e fácil de achar em papelaria", "<strong>Papel adesivo brilho</strong>: cores mais vivas, bom para temas coloridos", "<strong>Vinil adesivo</strong> para jato de tinta: resiste à água — ideal para garrafinha e lancheira"]},
+    {"h2": "Configuração da impressora", "ol": ["Tamanho do papel: A4.", "Escala: 100% ou “tamanho real” (desmarque “ajustar à página”).", "Tipo de papel: “etiqueta”, “fosco” ou “papel grosso”, se a impressora tiver a opção.", "Qualidade: normal ou alta. Faça um teste em sulfite comum antes de usar o adesivo."]},
+    {"h2": "Recortar e colar", "p": ["Recorte com tesoura seguindo as linhas pontilhadas, ou com estilete e régua para as mini. Cole em superfície limpa e seca e pressione alguns segundos."]}
+   ],
+   "faq": [{"q": "Posso usar sulfite comum?", "a": "Pode: recorte e cole com fita adesiva larga transparente por cima. Fica resistente e ainda sai mais barato."}, {"q": "A impressora puxa o papel adesivo torto. O que fazer?", "a": "Coloque uma folha por vez na bandeja e ajuste a guia lateral encostada no papel."}]},
+  {"slug": "como-etiquetar-material-escolar", "title": "Como etiquetar material escolar: lista do que marcar", "desc": "Checklist para etiquetar o material escolar: cadernos, livros, estojo, lápis, garrafinha, lancheira e uniforme. Quantas etiquetas de cada tamanho você precisa.", "h1": "Como etiquetar o material escolar",
+   "intro": "No começo do ano letivo, tudo é igual: o mesmo caderno da lista, o mesmo estojo, a mesma garrafinha. Marcar cada item com o nome evita troca, perda e conversa com a professora.",
+   "blocos": [
+    {"h2": "Checklist do que etiquetar", "lista": ["Cadernos e livros → etiqueta grande", "Pastas, agenda, estojo e lancheira → etiqueta média", "Garrafinha, pote e tampas → etiqueta redonda (com fita por cima)", "Lápis, canetinhas, borracha, apontador, cola, tesoura, régua → etiqueta mini", "Uniforme e casaco → caneta para tecido ou etiqueta termocolante (papel não resiste à lavagem)"]},
+    {"h2": "Quantas etiquetas eu preciso?", "p": ["Uma lista típica do 1º ano tem de 8 a 12 cadernos e livros, 3 a 5 itens médios, 2 a 3 potes e garrafas e de 30 a 50 miudezas. Uma folha A4 com 48 etiquetas cobre quase tudo; para caixa de lápis de cor de 24, imprima uma segunda folha."]},
+    {"h2": "Quando fazer", "p": ["Etiquete assim que comprar, antes de guardar na mochila. Deixe algumas etiquetas sobrando para repor o que se perde no meio do ano."]}
+   ],
+   "faq": [{"q": "Precisa etiquetar até a borracha?", "a": "É o que mais some. Etiqueta mini em volta da borracha ou da capinha dela resolve."}, {"q": "Etiqueta de papel serve para roupa?", "a": "Não, ela solta na lavagem. Para uniforme, use caneta para tecido ou etiqueta termocolante."}]},
+  {"slug": "etiqueta-escolar-tema-infantil", "title": "Etiqueta escolar com tema: dinossauro, unicórnio, espaço e futebol", "desc": "Etiquetas escolares com tema infantil: dinossauro, unicórnio, espaço, futebol, princesa, fundo do mar e bichinhos. Escolha o tema e imprima com o nome.", "h1": "Etiquetas escolares com tema infantil",
+   "intro": "Criança que escolhe o tema da própria etiqueta cuida melhor do material — e reconhece o que é dela de longe, mesmo antes de saber ler o nome.",
+   "blocos": [
+    {"h2": "Temas disponíveis", "lista": ["🦖 Dinossauro", "🦄 Unicórnio", "🚀 Espaço", "⚽ Futebol", "👑 Princesa", "🐠 Fundo do mar", "🐶 Bichinhos", "✏️ Clássico (bom para impressora preto e branco)"]},
+    {"h2": "Dica para quem ainda não lê", "p": ["Na educação infantil, o desenho vale mais que o nome: combine com a criança que “o dela é o do dinossauro”. Assim ela acha a garrafinha e a lancheira sozinha."]},
+    {"h2": "Irmãos na mesma escola", "p": ["Use um tema diferente para cada irmão. Fica fácil separar o material em casa e ninguém leva o estojo do outro."]}
+   ],
+   "faq": [{"q": "Posso trocar o tema depois de pagar?", "a": "Pode. Neste aparelho, a folha fica liberada: troque tema ou nome e imprima de novo."}, {"q": "Vai ter mais temas?", "a": "Sim, novos temas entram conforme os pedidos."}]}
+ ]}
